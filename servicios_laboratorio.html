@@ -1,0 +1,3565 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>
+      Laboratorio Clínico Plus Cartagena | Resultados Confiables y Atención
+      Humana
+    </title>
+    <meta
+      name="description"
+      content="Laboratorio Clínico Plus en Cartagena: exámenes confiables, tecnología avanzada y atención humana. Resultados rápidos y precisos."
+    />
+    <meta
+      name="keywords"
+      content="laboratorio clínico Cartagena, análisis clínicos, exámenes médicos, resultados rápidos, salud, diagnóstico confiable, laboratorio Plus"
+    />
+    <meta name="author" content="Laboratorio Clínico Plus Cartagena" />
+    <link rel="canonical" href="https://tusitio.com/" />
+
+    <!-- Redes sociales -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Laboratorio Clínico Plus Cartagena" />
+    <meta
+      property="og:description"
+      content="Resultados rápidos y confiables con atención humana."
+    />
+    <meta
+      property="og:image"
+      content="https://tusitio.com/assets/images/PLUS.png"
+    />
+    <meta property="og:url" content="https://tusitio.com/" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/PLUS.png" type="image/png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="assets/theme/css/style.css" />
+    <link rel="preload" href="css/styles.min.css" as="style" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/examenes.css">
+  
+
+    <style>
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.cerrar-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+</style>
+  </head>
+  <body>
+    <!-- =========================
+     NAVBAR FIJO Y CENTRADO
+========================= -->
+    <section class="menu" id="menu2-23">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid justify-content-between align-items-center">
+          <!-- LOGO -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="assets/images/PLUS.png"
+              alt="Logo Plus"
+              class="navbar-logo"
+            />
+          </a>
+
+          <!-- BOTÓN RESPONSIVE -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- ENLACES -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav align-items-center">
+              <!-- Inicio -->
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <!-- Nosotros -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="paraTi"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Nuestra Historia
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./quienessomos.html"
+                      >Quiénes somos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./historia.html">Historia</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Catalogo -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="paraTi"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Catálogo
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./servicios_laboratorio.html"
+                      >Exámenes de Laboratorio</a
+                    >
+                  </li>
+                  <!--<li><a class="dropdown-item" href="#">Genética</a></li>-->
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./assets/pdf/PORTAFOLIO 23.pdf"
+                      download="PORTAFOLIO_23.pdf"
+                    >
+                      Portafolio
+                    </a>
+                  </li>
+                  <!--<li><a class="dropdown-item" href="#">Pruebas Especiales</a></li>-->
+                </ul>
+              </li>
+
+              <!-- Servicios
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="institucional"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Como lo hacemos
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./servicios.html"
+                      >Servicios</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Muestras
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="empresarial"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Preparación de Muestras
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="sangre.html"
+                      >Toma de muestra en sangre</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="fecal.html"
+                      >Toma de muestra fecal</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="orina.html"
+                      >Muestra de orina</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="saliva.html"
+                      >Muestra de saliva</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="aliento.html"
+                      >Prueba de aliento</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Portal Pacientes -->
+              <!--<li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="pacientes"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Portal Resultados
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./login.html">Mis Resultados</a></li>
+                </ul>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <br /><br /><br />
+    <!-- FIN NAVBAR -->
+
+    <!-- ================================
+ ASESOR VIRTUAL TABOPLUS
+================================ -->
+    <div class="asesor-container">
+      <!-- Botón del asesor virtual -->
+      <button id="chat-toggle">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
+          alt="Asesor Virtual Taboplus"
+        />
+      </button>
+
+      <!-- Ventana de chat -->
+      <div id="chatbox">
+        <div id="chat-header">
+          🤖 Taboplus - Asesor Virtual
+          <span
+            id="chat-close"
+            style="cursor: pointer; float: right; font-weight: bold"
+          >
+            X
+          </span>
+        </div>
+
+        <div id="chat-messages"></div>
+
+        <div id="chat-input">
+          <input id="input" type="text" placeholder="Escribe aquí..." />
+          <button onclick="enviar()">➤</button>
+        </div>
+
+        <!-- Redes sociales -->
+        <div id="chat-social">
+          <a
+            href="https://wa.me/57311 3212221?text=Hola%2C%20quisiera%20más%20información"
+            target="_blank"
+            aria-label="WhatsApp"
+          >
+            <img src="assets/images/whatsapp.png" alt="WhatsApp" />
+          </a>
+          <a
+            href="https://www.facebook.com/PlusLaboratorioClinico"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <img src="assets/images/facebook.png" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/laboratorio_clinico_plus"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <img src="assets/images/instagram.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Asesor virtual final -->
+
+  <!-- ================= CATÁLOGO DE EXÁMENES ================= -->
+    <section class="section-header container">
+      <h2>Catálogo de Exámenes Médicos</h2>
+      <p>
+        Los exámenes de laboratorio permiten evaluar el estado de salud,
+        detectar enfermedades y monitorear tratamientos médicos.
+      </p>
+    </section>
+
+    <ul id="category-list">
+      <li data-category="Perfil Tiroideo" class="active">
+        Paquete Tiroides <b>$60.000</b>
+      </li>
+      <li data-category="Paquete Tumoral">Paquete Tumoral <b>$75.000</b></li>
+      <li data-category="Paquete Diabetes">Paquete Diabetes <b>$140.000</b></li>
+      <li data-category="Perfil Hepatico">Paquete Hepatico <b>$90.000</b></li>
+      <li data-category="Genética">Paquete Genética <b>$2'450.000</b></li>
+      <li data-category="Salud Ocupacional">
+        Paquete Salud Ocupacional <b>$50.000</b>
+      </li>
+      <li data-category="Paquete Rutinario">
+        Paquete Rutinario <b>$70.000</b>
+      </li>
+      <li data-category="Salud de la Mujer">
+        Paquete Salud de la Mujer <b>$550.000</b>
+      </li>
+      <li data-category="Salud del Hombre">Paquete Salud del Hombre <b>$160.000</b></li>
+      <li data-category="Examenes de Laboratorio">
+        Paquete Examenes de Laboratorio <b>$180.000</b>
+      </li>
+      <li data-category="Salud sexual">Paquete Salud Sexual <b>$350.000</b></li>
+      <li data-category="Prueba de Fertilidad">
+        Paquete Prueba de Fertilidad <b>$800.000 Hombres</b> | <b>$600.000 Mujeres</b>
+      </li>
+    </ul>
+
+    <section class="buscador">
+      <input
+        id="buscadorExamen"
+        type="text"
+        placeholder="Buscar examen por nombre, código o categoría..."
+      />
+    </section>
+
+    <section id="resultadosExamenes" class="resultados"></section>
+
+    <!-- ===========================
+     CONTADOR + BUSCADOR + VISTA
+=========================== -->
+    <div class="header-exams">
+      <!-- CONTADOR DE RESULTADOS -->
+      <div>
+        <!--<span id="exam-count">201</span> RESULTADOS-->
+      </div>
+
+      <section class="catalogo-section">
+        <!-- HEADER SUPERIOR -->
+        <div class="catalogo-header">
+          <div class="vista-toggle">
+            <button id="vista-list" class="vista-btn active">Lista</button>
+            <button id="vista-grid" class="vista-btn">Cuadrícula</button>
+          </div>
+
+          <input type="text" id="buscar-examen" placeholder="Buscar pruebas" />
+        </div>
+
+        <div id="catalogo-examenes" class="list-view"></div>
+      </section>
+    </div>
+
+    <div id="pagination"></div>
+
+    <!-- CONTENEDOR EXÁMENES -->
+    <div id="examenes" class="grid-container"></div>
+
+    <!-- BARRA INFERIOR COMPARAR 
+    <div id="bottomCompare" class="bottom-compare">
+      <div id="compareInfo">Selecciona hasta 2 exámenes</div>
+      <button id="compareBtn">Comparar</button>
+    </div>-->
+
+    <div id="modal-examen" class="modal">
+      <div class="modal-content">
+        <span class="cerrar-modal">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+<!-- ======= MODAL DETALLE ======= -->
+<div id="modal-examen" class="modal">
+  <div class="modal-content">
+    <span class="cerrar-modal">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+    <!-- Script general filtro de examenes -->
+
+    <div class="exam-modal" id="examModal">
+  <div class="exam-modal-content">
+    <button class="modal-close">&times;</button>
+
+    <span class="exam-category" id="modalCategory"></span>
+    <h2 id="modalTitle"></h2>
+    <p class="exam-description" id="modalDescription"></p>
+
+    <div class="exam-meta">
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png">
+        <span id="modalSample"></span>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png">
+        <span id="modalResultTime"></span>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/2907/2907253.png">
+        <span id="modalParams"></span>
+      </div>
+    </div>
+
+    <a href="#contacto" class="btn-contact">Contáctenos</a>
+
+    <hr>
+
+    <h3>¿Qué mide esta prueba?</h3>
+    <p id="modalWhatMeasures"></p>
+
+    <h3>Cómo prepararse</h3>
+
+    <p><strong>Condiciones de ayuno:</strong> <span id="modalFasting"></span></p>
+    <p><strong>Requerimientos adicionales:</strong> <span id="modalRequirements"></span></p>
+    <p><strong>Ejercicio físico:</strong> <span id="modalExercise"></span></p>
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo + misión -->
+        <div class="footer-section">
+          <img
+            src="assets/images/PLUS.png"
+            alt="Logo de Plus Laboratorio Clínico Cartagena"
+            class="footer-logo"
+            loading="lazy"
+          />
+          <p class="footer-mission">
+            Nuestra misión es brindar servicios de análisis clínico accesibles y
+            confiables, con calidad profesional y humana.
+          </p>
+        </div>
+
+        <!-- Nosotros
+    <div class="footer-section">
+      <h3>Nosotros</h3>
+      <ul>
+        <li><a href="#"><i class='bx bx-chevrons-right'></i> Nuestra organización</a></li>
+        <li><a href="#"><i class='bx bx-chevrons-right'></i> Información financiera</a></li>
+      </ul>
+    </div> -->
+
+        <!-- Políticas -->
+        <div class="footer-section">
+          <h3>Políticas</h3>
+          <ul>
+            <li>
+              <a href="./proveedores.html"
+                ><i class="bx bx-chevrons-right"></i> Proveedores</a
+              >
+            </li>
+            <!--<li><a href="#"><i class='bx bx-chevrons-right'></i> PQRS</a></li>-->
+            <li>
+              <a href="./politicaprivacidad.html"
+                ><i class="bx bx-chevrons-right"></i> Política de protección de
+                datos</a
+              >
+            </li>
+            <li>
+              <a href="./etica.html"
+                ><i class="bx bx-chevrons-right"></i> Ética y transparencia</a
+              >
+            </li>
+            <li>
+              <a href="./derechospaciente.html"
+                ><i class="bx bx-chevrons-right"></i> Derechos del paciente</a
+              >
+            </li>
+            <li>
+              <a href="./integral.html"
+                ><i class="bx bx-chevrons-right"></i> Gestión integral</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- PQRSF -->
+        <div class="footer-section">
+          <h3>PQRSF</h3>
+          <p>
+            Tu opinión es importante. Escríbenos a través de nuestros canales de
+            atención.
+          </p>
+          <ul>
+            <li>
+              <a href="mailto:pluslaboratorioclinicoctg@gmail.com"
+                ><i class="bx bx-chevrons-right"></i> Canales de atención</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Línea inferior -->
+      <div class="footer-bottom">
+        <p>
+          © 2025 Plus Laboratorio Clínico Cartagena. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Fin footer -->
+
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      // Aquí puedes manejar extras JS
+      document.addEventListener("DOMContentLoaded", () => {
+        console.log("JS cargado correctamente ✅");
+      });
+    </script>
+
+      <!-- ================================
+    ASESOR VIRTUAL TABOPLUS SCRIPT OPTIMIZADO
+================================ -->
+    <script>
+      document.getElementById("chat-close").addEventListener("click", () => {
+        document.getElementById("chatbox").style.display = "none";
+      });
+      const chatToggle = document.getElementById("chat-toggle");
+      const chatBox = document.getElementById("chatbox");
+      const input = document.getElementById("input");
+      const messages = document.getElementById("chat-messages");
+
+      // 🔔 Sonido de notificación
+      const sonido = new Audio(
+        "https://cdn.pixabay.com/download/audio/2022/03/15/audio_f54f6c3b7b.mp3?filename=notification-3-125447.mp3"
+      );
+
+      // ✅ Mostrar automáticamente al cargar la página
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          chatBox.style.display = "flex";
+          iniciarChat();
+
+          // Restaurar historial si existe
+          const historial =
+            JSON.parse(localStorage.getItem("chatHistorial")) || [];
+          if (historial.length > 0) {
+            historial.forEach((msg) =>
+              agregarMensaje(msg.texto, msg.tipo, false)
+            );
+          }
+        }, 600);
+      });
+
+      // 🟢 Alternar visibilidad manual del chat
+      chatToggle.addEventListener("click", () => {
+        if (chatBox.style.display === "flex") {
+          chatBox.style.display = "none";
+        } else {
+          chatBox.style.display = "flex";
+          iniciarChat();
+        }
+      });
+
+      // 📨 Enviar mensaje con botón o Enter
+      input.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") enviar();
+      });
+
+      function enviar() {
+        const texto = input.value.trim();
+        if (!texto) return;
+        agregarMensaje(texto, "user");
+        input.value = "";
+        setTimeout(() => respuestaAutomatica(texto.toLowerCase()), 600);
+      }
+
+      // 💬 Agregar mensaje al chat
+      function agregarMensaje(texto, tipo, guardar = true) {
+        const msg = document.createElement("div");
+        msg.classList.add("msg", tipo);
+        msg.innerHTML = texto;
+        messages.appendChild(msg);
+        messages.scrollTop = messages.scrollHeight;
+
+        if (tipo === "bot") sonido.play(); // 🔔 reproducir sonido
+        if (guardar) guardarMensaje(texto, tipo);
+      }
+
+      // 💾 Guardar mensaje en localStorage
+      function guardarMensaje(texto, tipo) {
+        const historial =
+          JSON.parse(localStorage.getItem("chatHistorial")) || [];
+        historial.push({ texto, tipo });
+        localStorage.setItem("chatHistorial", JSON.stringify(historial));
+      }
+
+      // 🧠 Iniciar conversación (solo una vez)
+      function iniciarChat() {
+        if (!localStorage.getItem("chatIniciado")) {
+          agregarMensaje(
+            "👋 ¡Hola! Soy <b>Taboplus</b>, tu asesor virtual. ¿Qué deseas hacer?<br><br>" +
+              "1️⃣ Consultar horarios<br>" +
+              "2️⃣ Agendar cita<br>" +
+              "3️⃣ Requisitos de exámenes<br>" +
+              "4️⃣ Resultados<br>" +
+              "5️⃣ Hablar con un agente",
+            "bot"
+          );
+          localStorage.setItem("chatIniciado", true);
+        }
+      }
+
+      // 🔄 Reiniciar conversación completamente
+      function reiniciarConversacion() {
+        localStorage.removeItem("chatHistorial");
+        localStorage.removeItem("chatIniciado");
+        messages.innerHTML = "";
+        agregarMensaje(
+          "🔄 Conversación reiniciada.<br><br>👋 Hola, soy <b>Taboplus</b>, tu asesor virtual. ¿Qué deseas hacer?<br><br>" +
+            "1️⃣ Consultar horarios<br>" +
+            "2️⃣ Agendar cita<br>" +
+            "3️⃣ Requisitos de exámenes<br>" +
+            "4️⃣ Resultados<br>" +
+            "5️⃣ Hablar con un agente",
+          "bot"
+        );
+      }
+
+      // 🤖 Lógica de respuestas automáticas
+      function respuestaAutomatica(texto) {
+        let respuesta = "";
+
+        if (
+          texto.includes("1") ||
+          texto.includes("horario") ||
+          texto.includes("hora")
+        ) {
+          respuesta =
+            "🕒 Nuestro horario de atención es:<br>Lun-Vie: 7:00 a.m. - 4:00 p.m.<br>Sábados: 7:00 a.m. - 12:00 p.m.<br>Domingos y festivos con cita previa.";
+        } else if (
+          texto.includes("2") ||
+          texto.includes("agendar") ||
+          texto.includes("cita")
+        ) {
+          respuesta =
+            "📅 Puedes agendar tu cita escribiéndonos por WhatsApp al <a href='https://api.whatsapp.com/send?phone=573113212221' target='_blank'>+57 311 321 2221</a> o a través de nuestra página web.";
+        } else if (
+          texto.includes("3") ||
+          texto.includes("requisito") ||
+          texto.includes("preparación")
+        ) {
+          respuesta =
+            "📋 Cada examen tiene requisitos específicos. Por ejemplo, para exámenes de sangre se recomienda ayuno de 8 horas. ¿Deseas conocer los requisitos de un examen específico?";
+        } else if (texto.includes("4") || texto.includes("resultado")) {
+          respuesta =
+            "📑 Puedes consultar tus resultados en línea o solicitarlos por WhatsApp. Generalmente están disponibles entre 24 y 48 horas después del examen.";
+        } else if (
+          texto.includes("5") ||
+          texto.includes("agente") ||
+          texto.includes("humano")
+        ) {
+          respuesta =
+            "👩‍💼 Un agente humano te atenderá en breve. También puedes contactarnos directamente por WhatsApp 👉 <a href='https://api.whatsapp.com/send?phone=573113212221' target='_blank'>aquí</a>.";
+        } else if (
+          texto.includes("reiniciar") ||
+          texto.includes("nuevo chat")
+        ) {
+          reiniciarConversacion();
+          return;
+        } else {
+          respuesta =
+            "🤖 No entendí completamente. Por favor elige una opción del 1 al 5.<br><br>" +
+            "1️⃣ Horarios<br>2️⃣ Cita<br>3️⃣ Requisitos<br>4️⃣ Resultados<br>5️⃣ Agente";
+        }
+
+        setTimeout(() => agregarMensaje(respuesta, "bot"), 700);
+      }
+    </script>
+    <!-- Fin Script Taboplus asesor virtual -->
+
+   <!-- Script buscador exámenes -->
+
+<script>
+// ===============================
+// NORMALIZAR Y INDEXAR EXÁMENES
+// ===============================
+
+const examenesLaboratorio = [
+  // ===============================
+  // HEMATOLOGÍA / COAGULACIÓN
+  // ===============================
+  {
+    categoria: "Hematología",
+    nombre: "Tiempo de Protrombina (TP)",
+    codigo: "HEM101",
+    descripcion: "Evalúa la vía extrínseca de la coagulación.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Dependen del reactivo",
+    muestra: "Sangre",
+    usoClinico: "Control de anticoagulación y trastornos hemorrágicos",
+    acreditado: true
+  },
+  {
+    categoria: "Hematología",
+    nombre: "Tiempo de Tromboplastina Parcial (TTP)",
+    codigo: "HEM102",
+    descripcion: "Evalúa la vía intrínseca de la coagulación.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Dependen del reactivo",
+    muestra: "Sangre",
+    usoClinico: "Evaluación de trastornos de coagulación",
+    acreditado: true
+  },
+  {
+    categoria: "Hematología",
+    nombre: "Tiempo de Trombina",
+    codigo: "HEM103",
+    descripcion: "Evalúa la conversión de fibrinógeno a fibrina.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Dependen del método",
+    muestra: "Sangre",
+    usoClinico: "Diagnóstico de coagulopatías",
+    acreditado: true
+  },
+
+  // ===============================
+  // QUÍMICA CLÍNICA
+  // ===============================
+  {
+    categoria: "Química Clínica",
+    nombre: "Triglicéridos",
+    codigo: "QUI201",
+    descripcion: "Mide el nivel de triglicéridos en sangre.",
+    indicaciones: "Ayuno 12 horas.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "<150 mg/dL",
+    muestra: "Sangre",
+    usoClinico: "Evaluación de riesgo cardiovascular",
+    acreditado: true
+  },
+  {
+    categoria: "Química Clínica",
+    nombre: "Urea",
+    codigo: "QUI202",
+    descripcion: "Evalúa la función renal.",
+    indicaciones: "Ayuno recomendado.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "15–40 mg/dL",
+    muestra: "Sangre",
+    usoClinico: "Control de función renal",
+    acreditado: true
+  },
+  {
+    categoria: "Química Clínica",
+    nombre: "Transaminasa Glutámico Oxalacética (AST)",
+    codigo: "QUI203",
+    descripcion: "Evalúa daño hepático y muscular.",
+    indicaciones: "Ayuno recomendado.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Hasta 40 U/L",
+    muestra: "Sangre",
+    usoClinico: "Evaluación de función hepática",
+    acreditado: true
+  },
+  {
+    categoria: "Química Clínica",
+    nombre: "Transaminasa Glutámico Pirúvica (ALT)",
+    codigo: "QUI204",
+    descripcion: "Indicador específico de daño hepático.",
+    indicaciones: "Ayuno recomendado.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Hasta 41 U/L",
+    muestra: "Sangre",
+    usoClinico: "Diagnóstico de enfermedades hepáticas",
+    acreditado: true
+  },
+
+  // ===============================
+  // HORMONAS
+  // ===============================
+  {
+    categoria: "Hormonas",
+    nombre: "Testosterona Total",
+    codigo: "HOR301",
+    descripcion: "Mide el nivel total de testosterona.",
+    indicaciones: "Muestra en la mañana.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Dependen de sexo y edad",
+    muestra: "Sangre",
+    usoClinico: "Evaluación hormonal masculina y femenina",
+    acreditado: true
+  },
+  {
+    categoria: "Hormonas",
+    nombre: "Testosterona Libre",
+    codigo: "HOR302",
+    descripcion: "Evalúa la fracción activa de testosterona.",
+    indicaciones: "Muestra en la mañana.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Dependen de sexo y edad",
+    muestra: "Sangre",
+    usoClinico: "Diagnóstico de trastornos hormonales",
+    acreditado: true
+  },
+
+  // ===============================
+  // TIROIDES
+  // ===============================
+  {
+    categoria: "Hormonas Tiroideas",
+    nombre: "TSH",
+    codigo: "TIR401",
+    descripcion: "Hormona estimulante de la tiroides.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "0.4–4.0 µUI/mL",
+    muestra: "Sangre",
+    usoClinico: "Evaluación de función tiroidea",
+    acreditado: true
+  },
+  {
+    categoria: "Hormonas Tiroideas",
+    nombre: "Tiroxina Libre (T4 Libre)",
+    codigo: "TIR402",
+    descripcion: "Evalúa la hormona tiroidea libre.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "0.8–1.8 ng/dL",
+    muestra: "Sangre",
+    usoClinico: "Diagnóstico de hipotiroidismo e hipertiroidismo",
+    acreditado: true
+  },
+  {
+    categoria: "Hormonas Tiroideas",
+    nombre: "Triyodotironina Total (T3)",
+    codigo: "TIR403",
+    descripcion: "Mide la hormona tiroidea T3.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "80–200 ng/dL",
+    muestra: "Sangre",
+    usoClinico: "Evaluación de función tiroidea",
+    acreditado: true
+  },
+
+  // ===============================
+  // INMUNOLOGÍA / SEROLOGÍA
+  // ===============================
+  {
+    categoria: "Inmunología",
+    nombre: "Rubeola Anticuerpos IgM",
+    codigo: "INM501",
+    descripcion: "Detecta infección aguda por rubeola.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "48 horas",
+    valoresReferencia: "Negativo",
+    muestra: "Suero",
+    usoClinico: "Diagnóstico de infección reciente",
+    acreditado: true
+  },
+  {
+    categoria: "Inmunología",
+    nombre: "Sarampión Anticuerpos IgG",
+    codigo: "INM502",
+    descripcion: "Evalúa inmunidad contra sarampión.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "48 horas",
+    valoresReferencia: "Positivo indica inmunidad",
+    muestra: "Suero",
+    usoClinico: "Control inmunológico",
+    acreditado: true
+  },
+  {
+    categoria: "Inmunología",
+    nombre: "VIH 1 y 2 Anticuerpos",
+    codigo: "INM503",
+    descripcion: "Detección de anticuerpos contra VIH.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "24–48 horas",
+    valoresReferencia: "No reactivo",
+    muestra: "Sangre",
+    usoClinico: "Tamizaje de VIH",
+    acreditado: true
+  },
+
+  // ===============================
+  // MICROBIOLOGÍA
+  // ===============================
+  {
+    categoria: "Microbiología",
+    nombre: "Urocultivo con Antibiograma",
+    codigo: "MIC601",
+    descripcion: "Identifica bacterias y sensibilidad antibiótica.",
+    indicaciones: "Orina de la mañana, aseo previo.",
+    tiempoEntrega: "72 horas",
+    valoresReferencia: "Negativo",
+    muestra: "Orina",
+    usoClinico: "Diagnóstico de infección urinaria",
+    acreditado: true
+  },
+
+  // ===============================
+  // ORINA Y HECES
+  // ===============================
+  {
+    categoria: "Uroanálisis",
+    nombre: "Uroanálisis",
+    codigo: "ORH701",
+    descripcion: "Examen físico, químico y microscópico de orina.",
+    indicaciones: "Primera orina de la mañana.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Dentro de rangos normales",
+    muestra: "Orina",
+    usoClinico: "Evaluación renal y urinaria",
+    acreditado: true
+  },
+  {
+    categoria: "Coprológico",
+    nombre: "Sangre Oculta en Materia Fecal",
+    codigo: "COP702",
+    descripcion: "Detecta hemoglobina humana en heces.",
+    indicaciones: "Dieta previa según indicación médica.",
+    tiempoEntrega: "24 horas",
+    valoresReferencia: "Negativo",
+    muestra: "Heces",
+    usoClinico: "Tamizaje de sangrado digestivo",
+    acreditado: true
+  },
+
+  // ===============================
+  // VITAMINAS Y OLIGOELEMENTOS
+  // ===============================
+  {
+    categoria: "Vitaminas",
+    nombre: "Vitamina D 25 Hidroxi Total",
+    codigo: "VIT801",
+    descripcion: "Evalúa niveles de vitamina D.",
+    indicaciones: "Ayuno no requerido.",
+    tiempoEntrega: "48 horas",
+    valoresReferencia: "30–100 ng/mL",
+    muestra: "Sangre",
+    usoClinico: "Evaluación de metabolismo óseo",
+    acreditado: true
+  },
+  {
+    categoria: "Oligoelementos",
+    nombre: "Zinc en Suero",
+    codigo: "OLI802",
+    descripcion: "Mide niveles de zinc en sangre.",
+    indicaciones: "Ayuno recomendado.",
+    tiempoEntrega: "48 horas",
+    valoresReferencia: "70–120 µg/dL",
+    muestra: "Suero",
+    usoClinico: "Evaluación nutricional",
+    acreditado: true
+  },
+  // ===============================
+// VITAMINAS Y OLIGOELEMENTOS
+// ===============================
+{
+  categoria: "Oligoelementos",
+  nombre: "Zinc en Suero",
+  codigo: "OLI802",
+  descripcion: "Mide los niveles de zinc en sangre.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "70–120 µg/dL",
+  muestra: "Suero",
+  usoClinico: "Evaluación nutricional, inmunológica y metabólica",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Nitrógeno Ureico - BUN (Orina al azar)",
+  codigo: "QUI301",
+  descripcion: "Mide la excreción de nitrógeno ureico en orina.",
+  indicaciones: "Recolección de muestra al azar.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Orina",
+  usoClinico: "Evaluación de función renal",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Nitrógeno Ureico en Orina de 24 Horas",
+  codigo: "QUI302",
+  descripcion: "Cuantifica nitrógeno ureico en recolección de 24 horas.",
+  indicaciones: "Recolección completa de 24 horas.",
+  tiempoEntrega: "24–48 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Orina 24 horas",
+  usoClinico: "Evaluación renal y balance nitrogenado",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Osmolaridad en Suero",
+  codigo: "QUI303",
+  descripcion: "Evalúa la concentración osmótica del suero.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "275–295 mOsm/kg",
+  muestra: "Suero",
+  usoClinico: "Trastornos hidroelectrolíticos",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Osmolaridad en Orina",
+  codigo: "QUI304",
+  descripcion: "Evalúa la capacidad de concentración renal.",
+  indicaciones: "Muestra espontánea.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "Dependen de hidratación",
+  muestra: "Orina",
+  usoClinico: "Evaluación de función renal",
+  acreditado: true
+}, 
+{
+  categoria: "Niveles Terapéuticos",
+  nombre: "Lidocaína / MEGX en Suero",
+  codigo: "TOX401",
+  descripcion: "Mide niveles de lidocaína y su metabolito MEGX.",
+  indicaciones: "Según indicación médica.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Dependen del fármaco",
+  muestra: "Suero",
+  usoClinico: "Monitoreo terapéutico",
+  acreditado: true
+},
+{
+  categoria: "Niveles Terapéuticos",
+  nombre: "Levodopa en Suero",
+  codigo: "TOX402",
+  descripcion: "Cuantificación de levodopa sérica.",
+  indicaciones: "Según horario de medicación.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Dependen del tratamiento",
+  muestra: "Suero",
+  usoClinico: "Monitoreo farmacológico",
+  acreditado: true
+},
+{
+  categoria: "Niveles Terapéuticos",
+  nombre: "Carbamazepina Libre",
+  codigo: "TOX403",
+  descripcion: "Mide la fracción libre de carbamazepina.",
+  indicaciones: "Antes de dosis.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Suero",
+  usoClinico: "Control de epilepsia",
+  acreditado: true
+},
+{
+  categoria: "Niveles Terapéuticos",
+  nombre: "Lamotrigina – Niveles Séricos",
+  codigo: "TOX404",
+  descripcion: "Cuantificación de lamotrigina en sangre.",
+  indicaciones: "Antes de dosis.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Dependen del tratamiento",
+  muestra: "Suero",
+  usoClinico: "Monitoreo anticonvulsivante",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Parotiditis Anticuerpos IgG",
+  codigo: "INM601",
+  descripcion: "Evalúa inmunidad contra parotiditis.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Positivo indica inmunidad",
+  muestra: "Suero",
+  usoClinico: "Control inmunológico",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Parotiditis Anticuerpos IgM",
+  codigo: "INM602",
+  descripcion: "Detecta infección aguda por parotiditis.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de infección reciente",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Rubeola Anticuerpos IgG",
+  codigo: "INM603",
+  descripcion: "Evalúa inmunidad contra rubeola.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Positivo indica inmunidad",
+  muestra: "Suero",
+  usoClinico: "Control inmunológico",
+  acreditado: true
+},
+{
+  categoria: "Microbiología",
+  nombre: "Panel ETS por PCR",
+  codigo: "MIC701",
+  descripcion: "Detección molecular de patógenos de transmisión sexual.",
+  indicaciones: "Según tipo de muestra.",
+  tiempoEntrega: "48–72 horas",
+  valoresReferencia: "No detectado",
+  muestra: "Exudado / Orina",
+  usoClinico: "Diagnóstico de ETS",
+  acreditado: true
+},
+{
+  categoria: "Microbiología",
+  nombre: "Papilomavirus por PCR (14 genotipos alto riesgo)",
+  codigo: "MIC702",
+  descripcion: "Detección y tipificación de VPH de alto riesgo.",
+  indicaciones: "Muestra cervical.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "No detectado",
+  muestra: "Exudado cervical",
+  usoClinico: "Tamizaje oncológico",
+  acreditado: true
+},
+{
+  categoria: "Hematología",
+  nombre: "Recuento de Plaquetas",
+  codigo: "HEM501",
+  descripcion: "Cuantificación de plaquetas en sangre.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "150.000–450.000 /µL",
+  muestra: "Sangre",
+  usoClinico: "Trastornos de coagulación",
+  acreditado: true
+},
+{
+  categoria: "Hematología",
+  nombre: "Recuento de Reticulocitos",
+  codigo: "HEM502",
+  descripcion: "Evalúa producción de glóbulos rojos.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "0.5–2.5 %",
+  muestra: "Sangre",
+  usoClinico: "Anemias",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "IgE Específica – Ampicilina (RAST)",
+  codigo: "ALG801",
+  descripcion: "Detección de IgE específica frente a ampicilina.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "5 días",
+  valoresReferencia: "Negativo / Clases 0–6",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergia medicamentosa",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "IgE Específica – Anchoa (RAST)",
+  codigo: "ALG802",
+  descripcion: "Detección de IgE específica frente a anchoa.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "5 días",
+  valoresReferencia: "Negativo / Clases 0–6",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergia alimentaria",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "IgE Específica – Anís (RAST)",
+  codigo: "ALG803",
+  descripcion: "Detección de IgE específica frente a anís.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "5 días",
+  valoresReferencia: "Negativo / Clases 0–6",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergia alimentaria",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "IgE Específica – Anisakis (RAST)",
+  codigo: "ALG804",
+  descripcion: "Detección de IgE específica frente a Anisakis.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "5 días",
+  valoresReferencia: "Negativo / Clases 0–6",
+  muestra: "Suero",
+  usoClinico: "Alergia parasitaria asociada a alimentos marinos",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "IgE Específica – Apio (RAST)",
+  codigo: "ALG805",
+  descripcion: "Detección de IgE específica frente a apio.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "5 días",
+  valoresReferencia: "Negativo / Clases 0–6",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergia alimentaria",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina G (IgG)",
+  codigo: "INM801",
+  descripcion: "Cuantificación total de IgG.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "700–1600 mg/dL",
+  muestra: "Suero",
+  usoClinico: "Evaluación inmunológica",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "IgG Subclases 1, 2, 3 y 4",
+  codigo: "INM802",
+  descripcion: "Cuantificación de subclases de IgG.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "Dependen de subclase",
+  muestra: "Suero",
+  usoClinico: "Inmunodeficiencias y enfermedades autoinmunes",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina G4 (IgG4)",
+  codigo: "INM803",
+  descripcion: "Cuantificación de IgG4 sérica.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Suero",
+  usoClinico: "Enfermedad relacionada con IgG4",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina M (IgM)",
+  codigo: "INM804",
+  descripcion: "Cuantificación total de IgM.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "40–230 mg/dL",
+  muestra: "Suero",
+  usoClinico: "Evaluación inmunológica",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Cadenas Livianas Kappa y Lambda en Suero",
+  codigo: "INM805",
+  descripcion: "Cuantificación de cadenas livianas de inmunoglobulinas.",
+  indicaciones: "Ayuno no requerido.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de gammapatías monoclonales",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Cadenas Livianas Kappa y Lambda en Orina",
+  codigo: "INM806",
+  descripcion: "Detección de cadenas livianas en orina.",
+  indicaciones: "Orina parcial o 24 horas.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "Negativo",
+  muestra: "Orina",
+  usoClinico: "Diagnóstico de mieloma múltiple",
+  acreditado: true
+},
+{
+  categoria: "Hormonas",
+  nombre: "Insulina (cada muestra)",
+  codigo: "HOR901",
+  descripcion: "Cuantificación de insulina sérica.",
+  indicaciones: "Ayuno 8 horas.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "2–25 µUI/mL",
+  muestra: "Suero",
+  usoClinico: "Evaluación de metabolismo glucídico",
+  acreditado: true
+},
+{
+  categoria: "Hormonas",
+  nombre: "Insulina Libre",
+  codigo: "HOR902",
+  descripcion: "Mide la fracción libre de insulina.",
+  indicaciones: "Ayuno 8 horas.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Suero",
+  usoClinico: "Resistencia a la insulina",
+  acreditado: true
+},
+{
+  categoria: "Hormonas",
+  nombre: "Insulina Curva 2 Horas (0, 60, 120)",
+  codigo: "HOR903",
+  descripcion: "Evaluación dinámica de insulina.",
+  indicaciones: "Ayuno + carga de glucosa.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "Interpretación médica",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de resistencia a la insulina",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Ionograma (Sodio, Potasio, Cloro)",
+  codigo: "QUI901",
+  descripcion: "Medición de electrolitos séricos.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "Valores individuales",
+  muestra: "Suero",
+  usoClinico: "Trastornos hidroelectrolíticos",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Lipasa",
+  codigo: "QUI902",
+  descripcion: "Evaluación de función pancreática.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "Hasta 60 U/L",
+  muestra: "Suero",
+  usoClinico: "Pancreatitis",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Lipoproteína A",
+  codigo: "QUI903",
+  descripcion: "Marcador de riesgo cardiovascular.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "<30 mg/dL",
+  muestra: "Suero",
+  usoClinico: "Riesgo aterosclerótico",
+  acreditado: true
+},
+{
+  categoria: "Toxicología",
+  nombre: "Mercurio en Sangre u Orina",
+  codigo: "TOX901",
+  descripcion: "Detección de exposición a mercurio.",
+  indicaciones: "Según tipo de muestra.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "Dependen del método",
+  muestra: "Sangre u Orina",
+  usoClinico: "Intoxicación por metales pesados",
+  acreditado: true
+},
+{
+  categoria: "Toxicología",
+  nombre: "Plomo en Sangre u Orina",
+  codigo: "TOX902",
+  descripcion: "Detección de plomo por absorción atómica.",
+  indicaciones: "Según tipo de muestra.",
+  tiempoEntrega: "72 horas",
+  valoresReferencia: "<5 µg/dL",
+  muestra: "Sangre u Orina",
+  usoClinico: "Intoxicación por plomo",
+  acreditado: true
+},
+{
+  categoria: "Microbiología",
+  nombre: "Mycobacterium tuberculosis – PCR",
+  codigo: "MIC901",
+  descripcion: "Detección molecular de M. tuberculosis.",
+  indicaciones: "Muestra respiratoria.",
+  tiempoEntrega: "48 horas",
+  valoresReferencia: "No detectado",
+  muestra: "Esputo",
+  usoClinico: "Diagnóstico de tuberculosis",
+  acreditado: true
+},
+{
+  categoria: "Microbiología",
+  nombre: "Legionella spp Antígeno en Orina",
+  codigo: "MIC902",
+  descripcion: "Detección rápida de antígeno de Legionella.",
+  indicaciones: "Muestra espontánea.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "Negativo",
+  muestra: "Orina",
+  usoClinico: "Neumonía por Legionella",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Pera",
+  codigo: "IGE001",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias alimentarias",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Perejil",
+  codigo: "IGE002",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias alimentarias",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Pimienta negra",
+  codigo: "IGE003",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias alimentarias",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Pino",
+  codigo: "IGE004",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias respiratorias",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Piña",
+  codigo: "IGE005",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias alimentarias",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Piroxicam",
+  codigo: "IGE006",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias a medicamentos",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: Pistacho",
+  codigo: "IGE007",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias a frutos secos",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: <ALERGENO>",
+  codigo: "IGE008",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias mediadas por IgE",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Hormona Antimulleriana",
+  codigo: "HORM001",
+  descripcion: "Determinación sérica de la hormona antimulleriana.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Según edad y sexo",
+  muestra: "Suero",
+  usoClinico: "Evaluación de reserva ovárica",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Hormona de Crecimiento [Somatotrópica]",
+  codigo: "HORM002",
+  descripcion: "Medición de hormona de crecimiento en sangre.",
+  indicaciones: "Ayuno según indicación médica.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Según edad",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alteraciones del crecimiento",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Hormona Estimulante del Tiroides Ultrasensible (TSH)",
+  codigo: "HORM003",
+  descripcion: "Cuantificación ultrasensible de TSH.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "3 días hábiles",
+  valoresReferencia: "0.4 – 4.0 µUI/mL",
+  muestra: "Suero",
+  usoClinico: "Evaluación de función tiroidea",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Hormona Folículo Estimulante (FSH)",
+  codigo: "HORM004",
+  descripcion: "Determinación de FSH sérica.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "3 días hábiles",
+  valoresReferencia: "Según fase del ciclo",
+  muestra: "Suero",
+  usoClinico: "Evaluación de función gonadal",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Hormona Luteinizante (LH)",
+  codigo: "HORM005",
+  descripcion: "Medición de hormona luteinizante.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "3 días hábiles",
+  valoresReferencia: "Según fase del ciclo",
+  muestra: "Suero",
+  usoClinico: "Estudio de fertilidad y función ovárica",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Hormona Paratiroidea Molécula Intacta",
+  codigo: "HORM006",
+  descripcion: "Cuantificación de hormona paratiroidea intacta.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "15 – 65 pg/mL",
+  muestra: "Suero",
+  usoClinico: "Evaluación del metabolismo calcio-fósforo",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Identificación de Anticuerpos – Babesia microti IgG / IgM",
+  codigo: "AC001",
+  descripcion: "Detección de anticuerpos contra Babesia microti.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de babesiosis",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Identificación de Anticuerpos – Coxsackie A9 IgG",
+  codigo: "AC002",
+  descripcion: "Determinación de anticuerpos IgG contra Coxsackie A9.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Evaluación de infección pasada",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Identificación de Anticuerpos – Coxsackie B1-6 IgG",
+  codigo: "AC003",
+  descripcion: "Detección de anticuerpos IgG contra Coxsackie B.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico serológico viral",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Identificación de Anticuerpos – Receptores de Acetilcolina",
+  codigo: "AC004",
+  descripcion: "Determinación de anticuerpos totales contra receptores de acetilcolina.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de miastenia gravis",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Inmunoglobulina E [IgE] Específica – RAST: <ALÉRGENO>",
+  codigo: "IGE001",
+  descripcion: "Determinación de IgE específica frente a alérgeno individual mediante técnica RAST.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "Clases 0–6 (kU/L)",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de alergias mediadas por IgE",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Acetaminofén – Niveles Séricos",
+  codigo: "QC001",
+  descripcion: "Determinación cuantitativa de acetaminofén en suero.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "3 días hábiles",
+  valoresReferencia: "10–30 µg/mL",
+  muestra: "Suero",
+  usoClinico: "Monitoreo terapéutico y toxicidad",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Receptores de Acetilcolina – Anticuerpos Bloqueadores",
+  codigo: "INM001",
+  descripcion: "Detección de anticuerpos bloqueadores contra receptores de acetilcolina.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de miastenia gravis",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Receptores de Acetilcolina – Anticuerpos Fijadores",
+  codigo: "INM002",
+  descripcion: "Determinación de anticuerpos fijadores contra receptores de acetilcolina.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Evaluación de trastornos neuromusculares",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Receptores de Acetilcolina – Anticuerpos Moduladores",
+  codigo: "INM003",
+  descripcion: "Detección de anticuerpos moduladores contra receptores de acetilcolina.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de miastenia gravis",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Ácido 5-Hidroxiindolacético en Orina de 24 Horas",
+  codigo: "QC002",
+  descripcion: "Cuantificación de metabolito de serotonina en orina de 24 horas.",
+  indicaciones: "Recolección de orina 24 horas. Dieta controlada.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "2–9 mg/24 h",
+  muestra: "Orina 24 horas",
+  usoClinico: "Diagnóstico de tumores carcinoides",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Ácido Delta Aminolevulínico (ALA) en Orina de 24 Horas",
+  codigo: "QC003",
+  descripcion: "Medición de ALA en orina.",
+  indicaciones: "Orina de 24 horas.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "≤ 7 mg/24 h",
+  muestra: "Orina 24 horas",
+  usoClinico: "Evaluación de porfirias e intoxicación por plomo",
+  acreditado: true
+},
+{
+  categoria: "Hematología",
+  nombre: "Ácido Fólico Eritrocitario",
+  codigo: "HEM001",
+  descripcion: "Determinación de folato en eritrocitos.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "150–600 ng/mL",
+  muestra: "Sangre total",
+  usoClinico: "Evaluación de reservas de folato",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Ácido Fólico (Folatos) en Suero",
+  codigo: "QC004",
+  descripcion: "Cuantificación de folato sérico.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "3 días hábiles",
+  valoresReferencia: "> 4 ng/mL",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de deficiencia de folato",
+  acreditado: true
+},
+{
+  categoria: "Inmunología",
+  nombre: "Ácido Glutámico Descarboxilasa – Anticuerpos (Anti-GAD)",
+  codigo: "INM004",
+  descripcion: "Detección de anticuerpos anti-GAD.",
+  indicaciones: "No requiere ayuno.",
+  tiempoEntrega: "7 días hábiles",
+  valoresReferencia: "Negativo",
+  muestra: "Suero",
+  usoClinico: "Diabetes autoinmune y síndromes neurológicos",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Ácido Láctico (L-Lactato)",
+  codigo: "QC005",
+  descripcion: "Medición de lactato en sangre.",
+  indicaciones: "Reposo previo a la toma.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "0.5–2.2 mmol/L",
+  muestra: "Plasma",
+  usoClinico: "Evaluación de hipoxia tisular",
+  acreditado: true
+},
+{
+  categoria: "Química Clínica",
+  nombre: "Ácido Úrico en Suero",
+  codigo: "QC006",
+  descripcion: "Determinación de ácido úrico.",
+  indicaciones: "Ayuno recomendado.",
+  tiempoEntrega: "24 horas",
+  valoresReferencia: "3.4–7.0 mg/dL",
+  muestra: "Suero",
+  usoClinico: "Diagnóstico de gota y trastornos renales",
+  acreditado: true
+},
+{
+  categoria: "Endocrinología",
+  nombre: "Hormona Adrenocorticotrópica (ACTH)",
+  codigo: "END001",
+  descripcion: "Cuantificación de ACTH plasmática.",
+  indicaciones: "Muestra refrigerada. Ayuno recomendado.",
+  tiempoEntrega: "5 días hábiles",
+  valoresReferencia: "7–63 pg/mL",
+  muestra: "Plasma",
+  usoClinico: "Evaluación del eje hipotálamo-hipófisis-suprarrenal",
+  acreditado: true
+}
+];
+
+const examenesIndexados = {};
+const codigosInvalidos = ["IGE###"];
+
+examenesLaboratorio.forEach(examen => {
+  const codigo = examen.codigo?.trim();
+
+  // Ignorar códigos genéricos o inválidos
+  if (!codigo || codigosInvalidos.includes(codigo) || codigo.includes("<")) {
+    return;
+  }
+
+  // Evitar duplicados: se conserva el primero
+  if (!examenesIndexados[codigo]) {
+    examenesIndexados[codigo] = examen;
+  }
+});
+
+// ===============================
+// ELEMENTOS DOM
+// ===============================
+
+const inputBuscador = document.getElementById("buscadorExamen");
+const resultadosContainer = document.getElementById("resultadosExamenes");
+
+if (!inputBuscador || !resultadosContainer) {
+  console.warn("Buscador o contenedor no encontrado en el DOM");
+}
+
+// ===============================
+// BUSCADOR POR CÓDIGO EXACTO
+// ===============================
+
+inputBuscador.addEventListener("input", function () {
+  const codigo = this.value.trim().toUpperCase();
+  resultadosContainer.innerHTML = "";
+
+  if (codigo.length < 3) return;
+
+  const examen = examenesIndexados[codigo];
+
+  if (!examen) {
+    resultadosContainer.innerHTML = `
+      <p style="color:#777;">
+        Código no encontrado. Verifique la orden médica.
+      </p>
+    `;
+    return;
+  }
+
+  mostrarResultadoPaciente(examen);
+});
+
+// ===============================
+// MOSTRAR RESULTADO
+// ===============================
+
+function mostrarResultadoPaciente(examen) {
+  resultadosContainer.innerHTML = `
+    <div class="examen-item">
+      <h3>${examen.nombre}</h3>
+
+      <p><strong>Categoría:</strong> ${examen.categoria}</p>
+      <p><strong>Código:</strong> ${examen.codigo}</p>
+      <p><strong>Descripción:</strong> ${examen.descripcion}</p>
+      <p><strong>Muestra:</strong> ${examen.muestra}</p>
+      <p><strong>Indicaciones:</strong> ${examen.indicaciones}</p>
+      <p><strong>Tiempo de entrega:</strong> ${examen.tiempoEntrega}</p>
+      <p><strong>Valores de referencia:</strong> ${examen.valoresReferencia}</p>
+      <p><strong>Uso clínico:</strong> ${examen.usoClinico}</p>
+      <p><strong>Acreditación:</strong> ${
+        examen.acreditado ? "ISO 15189" : "No acreditado"
+      }</p>
+
+      <button onclick="generarInformePaciente('${examen.codigo}')">
+        Descargar informe
+      </button>
+    </div>
+  `;
+}
+
+// ===============================
+// GENERAR INFORME TXT
+// ===============================
+
+function generarInformePaciente(codigo) {
+  const examen = examenesIndexados[codigo];
+  if (!examen) return;
+
+  const contenido = `
+LABORATORIO CLÍNICO
+INFORME DE EXAMEN
+
+Examen: ${examen.nombre}
+Código: ${examen.codigo}
+Categoría: ${examen.categoria}
+
+Muestra:
+${examen.muestra}
+
+Indicaciones:
+${examen.indicaciones}
+
+Tiempo de entrega:
+${examen.tiempoEntrega}
+
+Valores de referencia:
+${examen.valoresReferencia}
+
+Uso clínico:
+${examen.usoClinico}
+
+Documento confidencial.
+`;
+
+  const blob = new Blob([contenido], { type: "text/plain;charset=utf-8" });
+  const link = document.createElement("a");
+
+  link.href = URL.createObjectURL(blob);
+  link.download = `Informe_${codigo}.txt`;
+  document.body.appendChild(link);
+  link.click();
+
+  document.body.removeChild(link);
+  URL.revokeObjectURL(link.href);
+}
+</script>
+
+  <!-- Script BD -->
+    <script>
+            /* ===================== BASE DE DATOS ===================== */
+            const exams = [
+        /* Perfil Tiroideo */
+        {
+          id: 1,
+          name: "T3",
+          desc: "Examen de sangre que mide la cantidad de triyodotironina (T3), una hormona producida por la glandula tiroides. <br> Permite saber si la tiroides esta funcionando demasioado rápido o demasiado lento. <br><br> ¡Para que sirve? <br> <b> Detectar hipertiroidismo (Tiroides acelerada), Evaluar hipotiroidismo, Analizar alteraciones hormonales tiroideas, Monitorear tratatientos para enfermedades de la tiroides. </b> <br> <br> Normalmente se solicita con: TSH, T4, T4 Libre <br><br> ¿Como se realiza? <br> <b>  ⏱ La toma dura aproximadamente 3 a 5 minutos. </b> <br><br> <b> Generalmente no requiere ayuno </b>  <br><br> Informar si el paciente utiliza <b> Levotiroxina, Medicamentos tiroideos, Suplementos con biotina </b>",
+          category: "Perfil Tiroideo",
+          img: "./assets/images/Examenes/Perfil Tiroideo/T3.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas habiles",
+          details:
+            "Evalua como esta funcionando la tiroides y ayuda a detectar",
+        },
+        {
+          id: 2,
+          name: "T3 libre - FT3",
+          desc: "Examen de sangre que mide la fraccion libre y biológicamente activa de la hormona T3 (triyodotironina) <br> Permite saber con mayor exactitud si la tiroides está funcionando de forma normal, acelerada o disminuida. <br><br> ¡Para que sirve? <br> <b> Detectar hipertiroidismo, Evaluar alteraciones hormonales tiroides, Complementar resultados de TSH y T4, Monitorear tratamientos para enfermedades de la tiroides.</b> <br><br> Normalmente se solicita con: <br> TSH, T4 Libre, T3 Total <br><br> ¿Como se realiza? <br> <b> ⏱ La toma dura aproximadamente 3 a 5 minutos. </b> <br><br> <b> Generalmente no requiere ayuno </b>  <br><br> Informar si el paciente utiliza <b> Levotiroxina, Medicamentos tiroideos, Suplementos con biotina (Ideal suspender 48 horas antes) </b>",
+          category: "Perfil Tiroideo",
+          img: "./assets/images/Examenes/Perfil Tiroideo/T3 libre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas habiles",
+          details:
+            "Permite evaluar con mayor precisión el funcionamiento real de la tiroides.",
+        },
+        {
+          id: 3,
+          name: "T4 - Tiroxina",
+          desc: "Examen de sangre que mide la cantidad de tiroxina (T4), una hormona producida por la glándula tiroides. <br> Este examen permite evaluar si la tiroides está funcionando correctamente.  <br><br> ¡Para que sirve? <br> <b> Detectar hipotiroidismo (tiroides lenta), Detectar hipertiroidismo (tiroides acelerada), Evaluar alteraciones hormonales tiroideas, Controlar tratamientos para enfermedades de la tiroides. </b> <br><br> Normalmente se solicita con: <br> TSH, T3, T4 Libre <br><br> ¿Como se realiza? <br> <b> ⏱ La toma dura aproximadamente 3 a 5 minutos. </b> <br><br> <b> Generalmente no requiere ayuno </b>  <br><br> Informar si el paciente utiliza <b> Levotiroxina, Medicamentos tiroideos, Suplementos con biotina (Ideal suspender 48 horas antes) </b>",
+          category: "Perfil Tiroideo",
+          img: "./assets/images/Examenes/Perfil Tiroideo/T4.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa (punción en el brazo).",
+          time: "24 - 48 horas habiles",
+          details:
+            "Apoya el diagnóstico de hipotiroidismo, hipertiroidismo y control de tratamientos.",
+        },
+        {
+          id: 4,
+          name: "T4 Libre - FT4",
+          desc: "Examen de sangre que mide la fraccion libre y activa de la hormona tiroxina (T4) en la sangre <br><br> ¡Para que sirve? <br><b> Diagnosticar hipotiroiismo (tiroides que funciona lentamente), Diagnosticar hipertiroidismo (tiroides que funciona demasiado rápido), Evaluar alteraciones hormonales tiroides, Controlar tratamientos para enfermedades de la tiroides.  </b> <br><br> Normalmente se solicita con: <br> TSH, T3, T4 Total  </b> <br><br> ¿Como se realiza? <br> <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente utiliza <b> Levotiroxina u hormonas tiroideas, Medicamentos antitiroideos, Suplementos con biotina (ideal suspender 48 horas antes) </b>",
+          category: "Perfil Tiroideo",
+          img: "./assets/images/Examenes/Perfil Tiroideo/T4 Libre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa (Matriz analizada: Suero).",
+          time: "24 - 48 horas habiles",
+          details:
+            "Es uno de los indicadores más importantes para valorar la función tiroidea.",
+        },
+        {
+          id: 6,
+          name: "Hormona Estimulante de la Tiroides (TSH)",
+          desc: "Examen de sangre que mide la Hormona Estimulante de la Tiroides (TSH) para evaluar la funcion tiroidea y suele ser el primer estudio que se solicita cuando se sospechan problemas de tiroides. <br><br> ¡Para que sirve? <br> <b>Detectar hipotiroidismo (tiroides que trabaja más lento de lo normal), Detectar hipertiroidismo (tiroides que trabaja más rápido de lo normal), Evaluar alteraciones hormonales tiroideas, Controlar tratamientos para enfermedades de la tiroides.  </b> <br><br> Normalmente se solicita con: <br> T4 Libre, T3, Anticuerpos tiroideos <br><br> ¿Como se realiza? <br> <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente utiliza <b> Levotiroxina u otras hormonas tiroideas, Medicamentos antitiroideos, Suplementos con biotina (ideal suspender 48 horas antes).</b>",
+          category: "Perfil Tiroideo",
+          img: "./assets/images/Examenes/Perfil Tiroideo/Hormona & Tiroestimulante (TSH).png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (punción en el brazo).",
+          time: "24 - 48 horas habiles",
+          details:
+            "Examen principal para detectar hipotiroidismo e hipertiroidismo.",
+        },
+        {
+          id: 7,
+          name: "Anti-TPO",
+          desc: "Examen de sangre que detecta anticuerpos contra la peroxidasa tiroidea (TPO) Cuando el sistema inmunológico produce anticuerpos contra esta enzima, puede provocar enfermedades autoinmunes de la tiroides. <br><br> ¡Para que sirve? <br> <b>Detectar hipotiroidismo (tiroides que trabaja más lento de lo normal), Detectar hipertiroidismo (tiroides que trabaja más rápido de lo normal), Evaluar alteraciones hormonales tiroideas, Controlar tratamientos para enfermedades de la tiroides.  </b> <br><br> Normalmente se solicita con: <br> T4 Libre, T3, Anticuerpos tiroideos <br><br> ¿Como se realiza? <br> <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente utiliza <b> Medicamentos para la tiroides, Suplementos con biotina, Tratamientos inmunologicos.</b>",
+          category: "Perfil Tiroideo",
+          img: "./assets/images/Examenes/Perfil Tiroideo/Anti-TPO.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (punción en el brazo).",
+          time: "24 - 72 horas habiles",
+          details:
+            "Fundamental para diagnosticar tiroiditis autoinmune como Hashimoto.",
+        },
+
+        /* Paquete Tumoral */
+        {
+          id: 8,
+          name: "CA-125 (Ovario)",
+          desc: "Examen de sangre que mide la cantidad de CA-125 (Antigeno Cancerigeno 125) en la sangre Este examen no se usa solo para diagnosticar cáncer, pero sí para apoyar el diagnóstico y controlar la evolucion de la enfermedad. <br> Es uno de los exámenes más completos y comunes para evaluar el estado general de salud. <br><br> ¡Para que sirve? <br> <b> Detectar  Anemia, Infecciones, Inflamaciones, Trastornos de la sangre, Problemas de coagulacion, Seguimiento de tratamientos médicos </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br> <br> Informar si el paciente esta <b> mestruando, tiene endometriosis, tiene quistes ováricos, esta en tratamiento oncológico </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Ovario.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details: "Útil para diagnóstico y seguimiento de cáncer de ovario.",
+        },
+        {
+          id: 9,
+          name: "CA-15.3 (Mama)",
+          desc: "Examen de sangre que mide la cantidad de CA-15.3 (Antigeno Cancerígeno 15-3) en la sangre, No se utiliza como único examen para diagnóstico, sino como apoyo junto con otros estudios médicos. <br><br> ¡Para que sirve? <br>  <b> Monitorear el tratamiento del cáncer de mama, Evaluar respuesta a quimioterapia o terapia oncológica, Detectar posible recurrencia del cáncer, Dar seguimiento a pacientes con diagnóstico previo de cáncer de mama. </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente esta en <b> Tratamiento oncológico, Seguimiento por cáncer de mama, Tratamiento hormonal. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Mamas.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details: "Se usa para seguimiento del tratamiento en cáncer de mama.",
+        },
+        {
+          id: 10,
+          name: "CA 19-9 (Páncreas)",
+          desc: "Examen de sangre que mide la cantidad de CA 19-9 (Antigeno Cancerígeno 19.9) en la sangre, No se utiliza como único método diagnóstico, sino como herramienta de apoyo para seguimiento y control de la enfermedad. <br><br> ¡Para que sirve? <br>  <b> Apoyar el diagnóstico de cáncer de páncreas, Monitorear el tratamiento oncológico, Evaluar la respuesta a terapias contra el cáncer, Detectar posible recurrencia de la enfermedad. </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente presenta <b> Enfermedad hepática, Problemas de páncreas, Tratamiento oncológico. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Pancreas.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details: "Apoya el diagnóstico y control de tumores pancreáticos.",
+        },
+        {
+          id: 11,
+          name: "CA-72.4 (Estómago)",
+          desc: "Examen de sangre que mide la cantidad de CA-72.4 (Antigeno Cancerígeno 72-4) en la sangre, No se utiliza como único examen diagnóstico, sino como apoyo para el seguimiento y control de la enfermedad. <br><br> ¡Para que sirve? <br>  <b> Apoyar el diagnóstico de cáncer gástrico, Monitorear el tratamiento oncológico, Evaluar la respuesta al tratamiento, Detectar recurrencia del cáncer. </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente tiene <b> Enfermedades digestivas, Tratamiento oncológico, Antecedentes de cáncer gastrointestinal. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Estomago.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details: "Útil en seguimiento de cáncer de estómago.",
+        },
+        {
+          id: 13,
+          name: "CEA (Colon y Pulmón)",
+          desc: "Examen de sangre que mide el nivel de CEA (Antigeno Carcinoembrionario) en la sangre, Este examen se utiliza principalmente para seguimiento y control de pacientes con cáncer, no como único método diagnóstico. <br><br> ¡Para que sirve? <br>  <b> Monitorear el tratamiento del cáncer de colon, Evaluar respuesta a tratamiento oncológicos, Detectar recurrencia del cáncer, Apoyar el seguimiento en cáncer de pulmón y otros tumores. </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente <b> Fuma, Tiene enfermedad hepática, Está en tratamiento oncológico. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Colon y Pulmon.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details: "Marcador para control de cáncer de colon y pulmón.",
+        },
+        {
+          /* Pendiente */ id: 14,
+          name: "PSA y PSA libre (Próstata)",
+          desc: "Examen de sangre que mide los niveles de PSA total y PSA libre (Antígeno Prostático Específico), La medicion del PSA total y PSA libre permite al médico evaluar con mayor precisión el riesgo de cáncer de próstata. <br><br> ¡Para que sirve? <br>  <b> Detectar alteraciones en la próstata, Apoyar el diagnóstico de cáncer de próstata, Evaluar hiperplasia prostática benigna (agrandamiento de la próstata), Monitorear tratamientos prostáticos o oncológicos. </b> <br><br> ¿Como se realiza? <b> El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Recomendaciones <b> Evitar relaciones sexuales o eyaculación 48 horas antes del examen, No realizar ejercicio intenso o ciclismo 24 a 48 horas antes, No realizar el examen inmediatamente después de examen prostático o biopsia. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/PSA y PSA Libre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa en el brazo.",
+          time: "24 - 72 horas habiles",
+          details: "Útil para detección temprana de cáncer de próstata.",
+        },
+        {
+          id: 15,
+          name: "AFP (Testículos e Hígado)",
+          desc: "Examen de sangre que mide la cantidad de AFP (Alfa-fetoproteina) en la sangre, Este examen se utiliza principalmente para apoyar el diagnóstico y seguimiento de algunos tipos de cáncer. <br><br> ¡Para que sirve? <br>  <b> Apoyar el diagnóstico de cáncer de hígado (hepatocarcinoma), Detectar y monitorear tumores testiculares, Evaluar respuesta a tratamientos oncológicos, Detectar recurrencia de tumores. </b> <br><br> ¿Como se realiza? <b> El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente presenta <b> Enfermedad hepática, Tratamiento oncológico, Antecedentes de tumores hepáticos o testiculares. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Higado y Testiculos.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details: "Apoya el diagnóstico de cáncer de hígado y testículo.",
+        },
+        {
+          id: 16,
+          name: "HCG (Testículos y Mola)",
+          desc: "Examen de sangre que mide los niveles de HCG (Gonadotropina Coriónica Humana) en la sangre, La HCG es una hormona producida normalmente durante el embarazo, pero también puede elevarse en ciertas enfermedades como tumores testiculaes o enfermedad trofoblástica gestacional (mola hidatiforme). <br><br> ¡Para que sirve? <br>  <b> Apoyar el diagnóstico de tumores testiculares, Detectar enfermedad trofoblástica gestacional (mola), Monitorear tratamientos oncológicos, Evaluar recurrencia de tumores. </b> <br><br> ¿Como se realiza? <b> El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente <b> Está embarazada o sospecha de embarazo, Está en tratamiento oncológico, Tiene antecedentes de tumores testiculares o enfermedad trofoblástica. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Testiculos y Mola.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 48 horas habiles",
+          details: "Útil en tumores testiculares y enfermedad trofoblástica.",
+        },
+        {
+          id: 17,
+          name: "Tiroglobulina (Tiroides)",
+          desc: "Examen de sangre que mide los niveles de tiroglobulina (Tg) en la sangre, Este examen se utiliza principalmente como marcador tumoral en pacientes con cáncer de tiroides, especialmente después de tratamiento o cirugía. <br><br> ¡Para que sirve? <br>  <b> Monitorear pacientes con cáncer de tiroides después de cirugía o tratamiento con yodo radiactivo, Detectar recurrencia o persistencia del cáncer tiroideo, Evaluar la presencia de tejido tiroideo residual después de una tiroidectomía, Complementar estudios en enfermedades tiroideas. </b> <br><br> ¿Como se realiza? <b> El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Informar si el paciente <b> Ha sido sometido a cirugía de tiroides, Recibe tratamiento con yodo radiactivo, Toma hormonas tiroideas, Tiene antecedente de cáncer de tiroides. </b>",
+          category: "Paquete Tumoral",
+          img: "./assets/images/Examenes/Paquete Tumoral/Tiroglobulina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa (en el brazo).",
+          time: "24 - 72 horas habiles",
+          details:
+            "Se utiliza tras cirugía de tiroides para control oncológico.",
+        },
+
+        /* Paquete Diabetes */
+        {
+          id: 18,
+          name: "Glucosa Test",
+          desc: "Examen de sangre que mide la cantidad de glucosa (azúcar) presente en la sangre, Este examen es fundamental para detectar y controlar enfermedades metabólicas como la diabetes. <br><br> ¡Para que sirve? <br> <b> Diagnosticar diabetes, Detectar prediabetes, Monitorear el control de la glucosa en pacientes diabéticos, Evaluar hipoglucemia o hiperglucemia, Controlar el metabolismo de los carbohidratos. </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Se recomienda <b> No consumir alimentos ni bebidas azucaradas, Beber solo agua, Informar si el paciente está tomando medicamentos para diabetes </b>",
+          category: "Paquete Diabetes",
+          img: "./assets/images/Examenes/Paquete Diabetes/Glucosa.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa en el brazo.",
+          time: "2 - 6 horas habiles",
+          details: "Prueba inicial para detección y control de diabetes.",
+        },
+        {
+          id: 19,
+          name: "Hemoglobina Test",
+          desc: "Examen de sangre que mide la cantidad de hemoglobina presente en la sangre, Este examen suele formar parte del perfil hemático o hemograma completo. <br><br> ¡Para que sirve? <br> <b> Detectar anemia, Evaluar pérdidas de sangre, Diagnosticar trastornos hematológicos, Monitorear enfermedades crónicas, Evaluar el estado general de salud. </b> <br><br> ¿Como se realiza? <b> ⏱ El procedimiento dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b>  <br><br> Se recomienda informar <b> Presetan sangrados recientes, Está en tratamiento con suplementos de hierro, Tiene antecedentes de anemia o enfermedades hematológicas </b>",
+          category: "Paquete Diabetes",
+          img: "./assets/images/Examenes/Paquete Diabetes/Hemoglobina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa en el brazo.",
+          time: "1 - 3 horas habiles",
+          details: "Complementa la valoración integral del paciente diabético.",
+        },
+        {
+          id: 20,
+          name: "Hemoglobina Glicosilada (HbA1c)",
+          desc: "Examen de sangre que mide el porcentaje de hemoglobina unida a glucosa en la sangre, Este examen es uno de los principales indicadores para el control de la diabetes. <br><br> ¡Para que sirve? <br> <b> Diagnosticar diabetes, Detectar prediabetes, Evaluar el control glucémico en pacientes diabéticos, Monitorear la efectividad del tratamiento, Estimar el promedio de glucosa en los últimos meses </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Se recomienda informar <b> Tiene anemia o trastornos de glóbulos rojos, Ha recibido transfusiones recientes, Presenta enfermedades hematológicas. </b>",
+          category: "Paquete Diabetes",
+          img: "./assets/images/Examenes/Paquete Diabetes/Glicosilada.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa en el brazo.",
+          time: "24 - 48 horas habiles",
+          details: "Examen clave para seguimiento y control de diabetes.",
+        },
+        {
+          id: 21,
+          name: "Insulina Test",
+          desc: "Examen de sangre que mide la cantidad de insulina presente en la sangre, Este examen se usa frecuentemente para evaluar resistencia a la insulina, diabetes y otros transtornos del metabolismo de la glucosa. <br><br> ¡Para que sirve? <br> <b> Evaluar resistencia a la insulina, Apoyar el diagnóstico de diabetes tipo 2, Investigar hipoglucemia, Evaluar la función del páncreas, Calcular índices metabólicos como HOMA-IR </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno de 8 a 12 horas </b> <br><br> Se recomienda <b> No consumir alimentos ni bebids azucaradas, Beber solo agua, Informar si el paciente utiliza <b> medicamentos para diabetes o insulina. </b> ",
+          category: "Paquete Diabetes",
+          img: "./assets/images/Examenes/Paquete Diabetes/Insulina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Toma de sangre venosa en el brazo.",
+          time: "24 - 48 horas habiles",
+          details: "Permite evaluar resistencia a la insulina.",
+        },
+        {
+          id: 22,
+          name: "Microalbuminuria Test",
+          desc: "Examen de orina que mide pequeñas cantidades de albúmina (proteína) presentes en la orina, Este examen permote detectar daño renal en etapas tempranas, especialmente en personas con diabetes o hipertensión. <br><br> ¡Para que sirve? <br> <b> Detectar daño renal temprano, Monitorear pacientes con diabetes, Evaluar complicaciones de hipertensión, Controlar enfermedades renales crónicas, Detectar nefropatía diabética. </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b> <br><br> Se recomienda <b> Evitar ejercicio intenso antes del examen, Evitar realizarlo durante infecciones urinarias, Informar si el paciente tiene diabetes o hipertensión </b>",
+          category: "Paquete Diabetes",
+          img: "./assets/images/Examenes/Paquete Diabetes/Microalbuminuria.png",
+          /*price: "$25.000",*/
+          sample: "🧪 Orina",
+          time: "24 - 48 horas habiles",
+          details: "Identifica daño renal temprano por diabetes.",
+        },
+        /* Examenes de Laboratorio */
+        {
+          id: 23,
+          name: "Perfil Hemático",
+          desc: "Examen de sangre que evalúa los principales componentes de la sangre, Es uno de los exámenes más solicitados en medicina general. <br><br> ¡Para que sirve? <br> <b> Detectar anemia, Identificar infecciones, Evaluar trastornos hematológicos, Detectar problemas de coagulación, Monitorear enfermedades crónicas, Evaluar el estado general de salud. </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda Informar <b> si esta tomando medicamentos anticoagulantes, Tiene antecedentes de anemia o transtornos sanguíneos, Presenta infecciones recientes. </b>",
+          category: "Examenes de Laboratorio",
+          img: "./assets/images/Examenes/Examenes de Laboratorio/Perfil Hematico.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "1 - 3 horas habiles",
+          details:
+            "Permite detectar anemia, infecciones y alteraciones sanguíneas.",
+        },
+        {
+          id: 24,
+          name: "Hemograma completo",
+          desc: "Examen de sangre que analiza las diferentes células presentes en la sangre, Es uno de los exámenes más utilizados en medicina para diagnóstico y control de enfermedades. <br><br> ¡Para que sirve? <br> <b> Detectar anemia, diagnosticar infecciones, evaluar enfermedades hematológicas, detectar problemas del sistema inmunológico, identificar transtornos de coagulación, monitorear tratamientos médicos </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Informar si esta tomando medicamentos anticoagulantes, tiene antecedentes de anemia, presenta infecciones o enfermedades recientes. </b>",
+          category: "Examenes de Laboratorio",
+          img: "./assets/images/Examenes/Examenes de Laboratorio/Hemograma.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "1 - 3 horas habiles",
+          details:
+            "Útil para diagnosticar anemias, infecciones y trastornos de coagulación.",
+        },
+        {
+          id: 25,
+          name: "Hierro",
+          desc: "Examen de sangre que mide la cantidad de hierro circulante en la sangre, Este examen ayuda a evaluar transtornor relacionados con el metabolismo del hierro, especialmente anemia o sobrecarga de hierro. <br><br> ¡Para que sirve? <br> <b> Detectar anemia por deficiencia de hierro, evaluar transtornos del metabolismo del hierro, detectar sobrecarga de hierro (hemocromatosis), monitorear tratamientos con suplementos de hierro, evaluar estados de desnutrición o enfermedades crónicas. </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno de 8 a 12 horas <b> <br><br> Se recomienda  <b> Realizar el examen preferiblemente en la mañana, Informar si el paciente toma suplementos de hierro, Evitar ingerir hierro o multivitamínicos antes del examen </b>",
+          category: "Examenes de Laboratorio",
+          img: "./assets/images/Examenes/Examenes de Laboratorio/Hierro.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Ayuda a identificar deficiencia o sobrecarga de hierro.",
+        },
+        {
+          id: 26,
+          name: "Ferritina Test",
+          desc: "Examen de sangre que mide la cantidad de ferritina presente en la sangre, Este examen es uno de los indicadorres más importantes para detectar deficiencia o exceso de hierro. <br><br> ¡Para que sirve? <br> <b> Diagnosticar anemia por deficiencia de hierro, evaluar reservas de hierro en el organismo, detectar sobrecarga de hierro (hemocromatosis), monitorear tratamientos con suplementos de hierro, evaluar enfermedades inflamatorias o crónicas </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno pero se puede solicitar ayuno de 8 horas <b> <br><br> Se recomienda <b> Informar si esta tomando suplementos de hierro, tiene enfermedades inflamatorias, presenta antecedentes de anemia </b>",
+          category: "Examenes de Laboratorio",
+          img: "./assets/images/Examenes/Examenes de Laboratorio/Ferritina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Examen clave para confirmar anemia ferropénica.",
+        },
+        {
+          id: 27,
+          name: "Transferina Test",
+          desc: "Examen de sangre que mide los niveles de transferina, una proteína producida por el hígado encargada de transportar el hierro en la sangre, Este examen ayuda a evaluar transtornos del metabolismo del hierro. <br><br> ¡Para que sirve? <br> <b> Diagnosticar deficiencia de hierro, evaluar anemia, detectar sobrecarga de hierro, analizar la capacidad del organismo para transportar hierro, evaluar enfermedades hepáticas o nutricionales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno de 8 a 12 horas <b> <br><br> Se recomienda <b> realizar el examen preferiblemente en la mañana, informar si el paciente toma suplementtos de hierro, informar si existen enfermedades hepáticas o inflamatorias </b>",
+          category: "Examenes de Laboratorio",
+          img: "./assets/images/Examenes/Examenes de Laboratorio/Transferina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Complementa el estudio de anemias y metabolismo del hierro.",
+        },
+
+        /* Salud de la mujer */
+        {
+          id: 29,
+          name: "Citología en capa fina",
+          desc: "Examen ginecológico utilizad para analizar células del cuello uterino (cérvix) con el objetivo de detectar alteraciones celulares tempranas que puedan indicar lesiones precancerosas o cáncer cervical, las células recolectadas se colocan en un medio liquido especial, lo que permite una mejor preservación y análisis más preciso en el laboratorio. <br><br> ¡Para que sirve? <br> <b> Detectar lesionees precancerosas del cuello uterino, identificar cáncer cervical en etapas tempranas, detectar infecciones o cambios celulares anormales, apoyar el diagnóstico de virus del papiloma humano (VPH), monitorear la salud ginecológica </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 a 10 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda  <b> no tener relaciones sexuales 24 a 48 horas antes, no utilizar duchas vaginales ni óvulos, no realizar el examen durante la menstruación, evitar cremas o medicamentos vaginales previos </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/Citologia en capa fina.png",
+          /*price: "$25.000",*/
+          sample: "🧫 Muestra de células cervicales",
+          time: "3 - 5 días hábiles",
+          details: "Mejora la calidad del diagnóstico citológico.",
+        },
+        {
+          id: 30,
+          name: "Frotis vaginal",
+          desc: "Examen que analiza una muestra de secreción vaginal para detectar infecciones , bacteria, hongos o parásitos, el frotis vaginal permite observar directamente las células y microorganismos presentes en la secreción vaginal, ayudando a identificar alteraciones en la flora vaginal. <br><br> ¡Para que sirve? <br> <b> Diagnosticar infecciones vaginales, detectar hongos (candida), identificar vaginosis bacteriana, detectar parásitos como Trichomonas, evaluar alteraciones en la flora vaginal, investigar causas de flujo vaginal anormal </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda  <b> no tener relaciones sexuales 24 a 48 horas antes, no usar óvulos, cremas o medicamentos vaginales, no realizar duchas vaginales, evitar realizar el examen durante la menstruación </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/Frotis vaginal.png",
+          /*price: "$25.000",*/
+          sample: "🧫 Secreción vaginal",
+          time: "48 - 72 horas hábiles",
+          details: "Detecta infecciones como hongos o bacterias.",
+        },
+        {
+          id: 31,
+          name: "VPH test",
+          desc: "Examen molecular de laboratorio que detecta la presencia del Virus del Papiloma Humano (VPH) en células del cuello uterino, Esta prueba identifica material genético (ADN) del virus en la muestra. <br><br> ¡Para que sirve? <br> <b> Detectar infección por Virus del Papiloma Humano, identificar tipos de VPH de alto riesgo, apoyar la detección temprana del cáncer cervical, complementar la citología cervical (Papanicolaou), monitorear pacientes con lesiones cervicales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 a 10 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda  <b> no tener relaciones sexuales 24 a 48 horas antes, no usar óvulos, cremas o medicamentos vaginales, no realizar duchas vaginales, evitar realizar el examen durante la menstruación </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/VPH.png",
+          /*price: "$25.000",*/
+          sample: "🧫 Células del cuello uterino",
+          time: "3 - 5 días hábiles",
+          details: "Identifica tipos de VPH de alto riesgo.",
+        },
+        {
+          id: 32,
+          name: "FSH",
+          desc: "Examen de sangre que mide los niveles de FSH (Hormona Foliculo Estimulante) en la sangre, En las mujeres, estimula el desarrollo de los folículos ováricos y participa en el ciclo mestrual. En los hombres, interviene en la producción de espermatozoides. <br><br> ¡Para que sirve? <br> <b> Evaluar fertilidad femenina, analizar alteraciones del ciclo mestrual, diagnosticar menopausia o insuficiencia ovárica, evaluar problemas de fertilidad masculina, detectar transtornos de la hipófisis o del sistema reproductivo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda  <b> informar si esta utilizando anticonceptivos hormonales, recibe tratamientos de fertilidad, tiene antecedentes de transtornos hormonales </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/FSH.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Evalúa fertilidad y función ovárica.",
+        },
+        {
+          id: 33,
+          name: "LH",
+          desc: "Examen de sangre que mide los niveles de LH (Hormona Luteinizante) en la sangre, es una hormona producida por la glándula hipófisis y tiene un papel fundamental en el sistema reproductivo. <br><br> ¡Para que sirve? <br> <b> Evaluar problemas de fertilidad, analizar alteraciones del ciclo mestrual, detectar trastornos hormonales, evaluar ovulación en mujeres, diagnosticar pubertad precoz o tardía, evaluar alteraciones de la hipófisis o de las gónadas </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda  <b> informar si esta utilizando anticonceptivos hormonales, recibe tratamientos de fertilidad, presenta transtornos hormonales conocidos </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/LI-H.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Útil en estudios de fertilidad.",
+        },
+        {
+          id: 34,
+          name: "Prolactina",
+          desc: "Examen de sangre que mide los niveles de prolactina, hormona producida por la glándula hipófisis, tiene como función principal estimular la producción de leche en las glándulas mamarias después del parto. También participa en la regulación hormonal del sistema reproductivo. <br><br> ¡Para que sirve? <br> <b> Evaluar problemas de fertilidad, detectar alteraciones del ciclo mestrual, investigar secreción anormal de leche (galactorrea), diagnosticar trastornos de la hipófisis, evaluar niveles hormonales en hombre y mujeres </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno de 8 horas <b> <br><br> Se recomienda  <b> ayuno de 8 horas (opcional según indicación médica), evitar estrés o ejercicio intenso antes del examen, no estimular las mamas o pezones antes de la toma, realizar el examen preferiblemente en la mañana </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/Prolactina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Su aumento puede alterar el ciclo menstrual.",
+        },
+        {
+          id: 35,
+          name: "Estradiol (E2)",
+          desc: "Examen de sangre que mide los niveles de una de las principales hormonas del grupo de los estrógenos, Esta hormona cumple un papel fundamental en la regulación del ciclo menstrual y la función reproductiva. <br><br> ¡Para que sirve? <br> <b> Evaluar fertilidad femenina, analizar alteraciones del ciclo mestrual, detectar problemas hormonales en ovarios, evaluar función ovárica, monitorear tratamientos de fertilidad, diagnosticar menopausia o pubertad precoz </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda informar <b> si utiliza anticonceptivos hormonales, está en tratamiento hormonal, recibe tratamientos de fertilidad </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/Estradiol.png",
+          /*price: "$25.000",*/
+          sample: "Sangre",
+          time: "24 - 48 horas hábiles",
+          details: "Evalúa función ovárica y menopausia.",
+        },
+        {
+          id: 36,
+          name: "Progesterona Test",
+          desc: "Examen de sangre que mide los niveles de progesterona, hormona producida principalmente por los ovarios y, durante el embarazo, por la placenta, es fundamental para regular el ciclo mestrual y preparar el útero para un posible embarazo. <br><br> ¡Para que sirve? <br> <b> Evaluar ovulación, analizar problemas de fertilidad, confirmar si una mujer está ovulando, evaluar el funcionamiento de los ovarios, monitorear embarazos tempranos, diagnosticar alteraciones hormonales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda informar <b> si usa tratamientos hormonales, está en tratamiento de fertilidad, está embarazada o sospecha embarazo </b>",
+          category: "Salud de la mujer",
+          img: "./assets/images/Examenes/Salud de la Mujer/",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Confirma ovulación y apoyo a la gestación.",
+        },
+
+        /* Salud del Hombre */
+
+        {
+          id: 37,
+          name: "Testosterona Test",
+          desc: "Examen de sangre que mide los niveles de la principal hormona sexual masculina, es producida principalmente por los testículos en los hombres y en menor cantidad por los ovarios en las mujeres y las glándulas suprarrenales, esta hormona participa en el desarrollo de características sexuales, fertilidad, masa muscular y función reproductiva. <br><br> ¡Para que sirve? <br> <b> Evaluar problemas de fertilidad, detectar niveles bajos o altos de testosterona, analizar alteraciones hormonales en hombres y mujeres, evaluar disfunción sexual o disminución del deseo sexual, diagnosticar pubertad precoz o retrasada, investigar síndrome de ovario poliquístico (SOP) en mujeres </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda informar <b> si usa terapia hormonal, toma medicamentos esteroides, está en tratamientos endocrinológicos </b>",
+          category: "Salud del Hombre",
+          img: "./assets/images/Examenes/Salud del Hombre/Testosterona.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Útil para evaluar disminución del deseo sexual, fertilidad y fatiga.",
+        },
+        {
+          id: 38,
+          name: "PSA",
+          desc: "Examen de sangre que mide los niveles de PSA una proteina producida por la glándula prostática, circula en pequeñas cantidades en la sangre, pero sus niveles pueden aumentar cuando existen alteraciones en la próstata, como inflamación, crecimiento benigno o cáncer de próstata. <br><br> ¡Para que sirve? <br> <b> Detectar posibles alteraciones en la próstata, apoyar el diagnóstico temprano de cáncer de próstata, evaluar hiperplasia prostática benigna (crecimiento de la próstata), detectar prostatitis (inflamación de la próstata), monitorear pacientes con cáncer de próstata </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> evitar relaciones sexuales o eyaculación 24 a 48 horas antes, no realizar el examen después de masaje prostático o tacto rectal reciente, informar si el paciente tiene infección urinaria o inflamación prostática, en algunos casos se recomienda ayuno de 8 horas </b>",
+          category: "Salud del Hombre",
+          img: "./assets/images/Examenes/Salud del Hombre/PSA.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Ayuda en la detección temprana de alteraciones prostáticas.",
+        },
+        {
+          id: 39,
+          name: "Chequeo médico del hombre",
+          desc: "perfil que agrupa exámenes de sangre y orina para evaluar el estado general de salud del hombre, este chequeo permite detectar de forma temprana problemas metabólicos, hormonales, prostáticos y cardiovasculares. <br><br> ¡Para que sirve? <br> <b> Evaluar función prostática, detectar diabetes o alteraciones de glucosa, evaluar niveles de colesterol y triglicéridos, analizar función hepática y renal, detectar anemia o infecciones, evaluar estado hormonal masculino </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno de 8 a  12 horas <b> <br><br> Se recomienda <b> Evitar consumo de alcohol el dia anterior, mantener hidratación adecuada, en caso de incluir PSA, evitar relaciones sexuales 24 a 48 horas antes </b>",
+          category: "Salud del Hombre",
+          img: "./assets/images/Examenes/Salud del Hombre/Chequeo medico del hombre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa 🚻 Muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Incluye pruebas metabólicas, hormonales y prostáticas.",
+        },
+
+        /* Salud Sexual */
+
+        {
+          id: 40,
+          name: "Panel Pcr 13 patógenos Clamidya",
+          desc: "Examen que detecta material genético de bacterias y microorganismos causante de infecciones de transmisión sexual (ITS), La prueba es altamente sensible y específica, permitiendo detectar infecciones incluso en etapas tempranas o sin síntomas. <br><br> ¡Para que sirve? <br> permite <b> Detectar clamidia (Chlamydia trachomatis), diagnosticar infecciones de transmisión sexual, identificar múltiples patógenos en una sola prueba, evaluar flujo vaginal, secreción uretral o infecciones genitales, apoyar el tratamiento médico adecuado </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda<b> Evitar relaciones sexuales 24 horas antes, no aplicar óvulos, cremas vaginales o antibióticos previamente, en hombres, evitar orinar al menos 1 - 2 horas antes si se realiza hisopado uretral </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Clamidia.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Hisopado vaginal o cervical - 👨 Hombres Hisopado uretral o muestra de orina",
+          time: "48 - 72 horas hábiles",
+          details: "Identifica bacterias asociadas a uretritis.",
+        },
+        {
+          id: 41,
+          name: "Trichomonas vaginalis",
+          desc: "Examen que permite detectar el parásito Trichomonas vaginalis, causante de la infección conocida como tricomoniasis, una infección de transmisión sexual (ITS), La prueba identifica el parásito en secreciones vaginales o uretrales, permitiendo confirmar la infección y orientar el tratamiento adecuado. <br><br> ¡Para que sirve? <br> permite <b> Detectar tricomoniasis, evaluar flujo vaginal anormal, diagnosticar infecciones genitales, investigar picazón, irritación o mal olor vaginal, identificar infecciones de transmisión sexual </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos, cremas vaginales o duchas vaginales, en algunos casos evitar antibióticos antes del examen </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Trichomonas vaginales.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Secreción vaginal (hisopado vaginal) - 👨 Hombres Secreción uretral o muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Apoya el diagnóstico de infecciones urinarias.",
+        },
+        {
+          id: 42,
+          name: "Ureplasm  parvun",
+          desc: "Examen que detecta la bacteria Ureaplasma parvum, un microorganismo que puede encontrarse en el tracto genital y urinario, Esta prueba permite identificar infecciones asociadas a enfermedades de transmisión sexual o infecciones urogenitales, especialmente cuando existen sintomas como flujo anormal, ardor al orinar o dolor pélvico. <br><br> ¡Para que sirve? <br> permite <b> Detectar infecciones genitales por Ureaplasma, evaluar infecciones urinarias persistentes, investigar flujo vaginal anormal, diagnosticar uretritis o cervicitis, evaluar problemas de fertilidad asociados a infecciones </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos o cremas vaginales, evitar antibióticos antes de la prueba, en hombres, evitar orinar al menos 1-2 horas antes si se realiza hisopado uretral </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Ureplasm  parvun.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Hisopado vaginal o cervical -👨 Hombres Hisopado uretral o muestra de orina",
+          time: "48 - 72 horas hábiles",
+          details: "Infección de transmisión sexual frecuente y tratable.",
+        },
+        {
+          id: 43,
+          name: "Mycoplasma genitalium",
+          desc: "Examen que detecta la bacteria Mycoplasma genitalium, un microorganismo asociado a infecciones de transmisión sexual (ITS), Esta bacteria puede causar uretritis en hombre y cervicitis o enfermedad inflamatoria pélvica en mujeres, La prueba identifica el ADS del microorganismo, lo que permite un diagnóstico preciso incluso en etapas tempranas <br><br> ¡Para que sirve? <br> permite <b> Detectar infección por Mycoplasma genitalium, evaluar uretritis o secreción uretral en hombres, diagnosticar cervicitis o infecciones genitales en mujeres, investigar dolor pélvico o flujo vaginal anormal, evaluar infecciones de transmisión sexual persistentes </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos, cremas vaginales o antibióticos, en hombres, evitar orinar al menos 1-2 horas antes si se realiza hisopado uretral </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Mycoplasma genitalium.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Hisopado vaginal o cervical -👨 Hombres Hisopado uretral o muestra de orina",
+          time: "48 - 72 horas hábiles",
+          details: "Causa uretritis y flujo genital.",
+        },
+        {
+          id: 44,
+          name: "Mycoplasma hominis",
+          desc: "Examen que detecta la bacteria Mycoplasma hominis, un microorganismo que puede encontrarse en el tracto genital y urinario, La prueba permite identificar la bacteria mediante cultivo microbiológico o técnicas de biología molecular como PCR. <br><br> ¡Para que sirve? <br> permite <b> Detectar infecciones genitales por Mycoplasma hominis, evaluar uretritis o secreción uretral, investigar flujo vaginal anormal, diagnosticar infecciones pélvicas, evaluar problemas de fertilidad asociados a infecciones </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos, cremas vaginales o duchas vaginales, evitar uso reciente de antibióticos, en hombres, evitar orinar al menos 1-2 horas antes si se realiza hisopado uretral </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Mycoplasma hominis.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Hisopado vaginal o cervical -👨 Hombres Hisopado uretral o muestra de orina",
+          time: "48 - 72 horas hábiles",
+          details: "Útil ante presencia de úlceras genitales.",
+        },
+        {
+          id: 45,
+          name: "Ureaplasma Urealyticom",
+          desc: "Examen de sangre de laboratorio clinico - hematologia que evalua los principales componentes de la sangre. <br> Es uno de los exámenes más completos y comunes para evaluar el estado general de salud. <br><br> ¡Para que sirve? <br> permite detectar <b> Anemia, Infecciones, Inflamaciones, Trastornos de la sangre, Problemas de coagulacion, Seguimiento de tratamientos médicos </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos, cremas vaginales o duchas vaginales, evitar uso reciente de antibióticos, en hombres evitar orinar al menos 1-2 horas antes si se realiza hisopado uretral </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Ureaplasma Urealyticom.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Hisopado vaginal o cervical -👨 Hombres Hisopado uretral o muestra de orina",
+          time: "48 - 72 horas hábiles",
+          details: "Causa flujo, ardor e irritación genital.",
+        },
+        {
+          id: 46,
+          name: "Haemophylus ducreyi",
+          desc: "Examen que detecta el microorganismo responsable del chancroide, una infección de transmisión sexual (ITS), La prueba permite identificar el microorganismo mediante cultivo bacteriano o técnicas de biología molecular como PCR. <br><br> ¡Para que sirve? <br> permite <b> Detectar infección por Haemophilus ducreyi, diagnosticar chancroide, evaluar úlceras o lesiones genitales, diferenciar infecciones genitales de otras ITS como sífilis o herpes, apoyar el tratamiento adecuado de infecciones genitales  </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 minutos </b> <br><br> <b> Generalmente no requiere preparación especial <b> <br><br> Se recomienda <b> No aplicar cremas, antibióticos o desinfectantes en la lesión antes del examen, informar al médico si el paciente ha recibido tratamiento antibiótico reciente </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Haemophylus ducreyi.png",
+          /*price: "$25.000",*/
+          sample:
+            "Hisopado de la lesión o úlcera genital - Secreción de la lesión",
+          time: "48 - 72 horas hábiles",
+          details: "Frecuente causa de mal olor vaginal.",
+        },
+        {
+          id: 47,
+          name: "Gardnerella vaginalis",
+          desc: "Examen que detecta la principal bacteria causante de la vaginosis bacteriana, Esta condición ocurre cuando se altera el equilibrio natural de bacterias en la vagina, permitiendo el crecimiento excesivo de Gardnerella y otros microorganismos. <br><br> ¡Para que sirve? <br> permite <b> Diagnosticar vaginosis bacteriana, evaluar flujo vaginal anormal, investigar mal olor vaginal, detectar infecciones vaginales, diferenciar infecciones vaginales de hongos o parásitos </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos, cremas vaginales o duchas vaginales, evitar antibióticos vaginales antes del examen </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Gardenela Vaginal.png",
+          /*price: "$25.000",*/
+          sample: "👩 Mujeres Secreción vaginal (hisopado vaginal)",
+          time: "24 - 48 horas hábiles",
+          details: "Enfermedad de transmisión sexual tratable.",
+        },
+        {
+          id: 75,
+          name: "Candida albicans",
+          desc: "Examen que detecta el hongo candida albicans, principal causante de la candidiasis, una infección que puede afectar la zona vaginal, genital, oral o piel, La prueba permite identificar la presencia del hongo en secreciones o muestras biológicas, ayudando a confirmar la infección y orientar el tratamiento. <br><br> ¡Para que sirve? <br> permite <b> Diagnosticar candidiasis vaginal, detectar infecciones por hongos, evaluar flujo vaginal anormal, investigar picazón o irritación genital, diferenciar infecciones vaginales de bacterias o picazón o irritación </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar óvulos, cremas vaginales o tratamientos antifúngicos, evitar duchas vaginales antes de la prueba </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Candida albicans.png",
+          /*price: "$25.000",*/
+          sample:
+            "👩 Mujeres Secreción vaginal (hisopado vaginal) -👨 Hombres Secreción genital",
+          time: "24 - 48 horas hábiles",
+          details: "Enfermedad de transmisión sexual tratable.",
+        },
+        {
+          id: 76,
+          name: "Treponema pallidum",
+          desc: "Examen que detecta la bacteria Treponema pallidum, el microorganismo responsable de la sífilis, una infección de transmisión sexual (ITS), La prueba generalmente identifica anticuerpos contra la bacteria en la sangre, lo que permite diagnosticar la infección incluso cuando no hay síntomas visibles. <br><br> ¡Para que sirve? <br> permite <b> Detectar infección por sífilis, diagnosticar sífilis en diferentes etapas, evaluar lesiones o úlceras genitales, realizar tamizaje en controles médicos o prenatales, monitorear tratamiento de sífilis </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Informar si ha tenido contacto sexual de riesgo, presenta lesiones genitales, ha recibido tratamiento previo para sífilis </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Treponema plidum.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Enfermedad de transmisión sexual tratable.",
+        },
+        {
+          id: 77,
+          name: "Herpes Simple Tipo I (HSV-1)",
+          desc: "Examen que detecta un virus que causa herpes oral y en algunos casos infecciones genitales, La prueba puede identificar anticuerpos contra el virus en la sangre o detectar directamente el material genético del virus mediante PCR. <br><br> ¡Para que sirve? <br> permite <b> Detectar infección por virus herpes simple tipo 1, diagnosticar herpes oral, evaluar lesiones o ampollas en labios o boca, diferenciar infecciones virales de otras lesiones en la piel o mucosas, confirmar infección en casos recurrentes </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere preparación especial <b> <br><br> Se recomienda <b> No aplicar cremas o medicamentos en la zona antes del examen, informar si el paciente ha recibido tratamiento antiviral reciente </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Herpes simple I.png",
+          /*price: "$25.000",*/
+          sample:
+            "🩸 Sangre venosa (para detectar anticuerpos) - 🧫 Secreción de la lesión (hisopado de ampolla o llaga)",
+          time: "24 - 48 horas hábiles",
+          details: "Enfermedad de transmisión sexual tratable.",
+        },
+        {
+          id: 78,
+          name: "Herpes Simple Tipo II (HSV-2)",
+          desc: "Examen que detecta el principal causante del herpes genital, una infección de transmisión sexual (ITS), La prueba puede identificar anticuerpos contra el virus en la sangre o detectar directamente el ADN del virus mediante infección de transmisión sexual (ITS). <br><br> ¡Para que sirve? <br> permite <b> Detectar infección por herpes simple tipo 2, diagnosticar herpes genital, evaluar ampollas o lesiones genitales, confirmar infecciones recurrentes, diferenciar herpes de otras infecciones genitales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere preparación especial <b> <br><br> Se recomienda informar <b> No aplicar cremas o medicamentos en la zona antes del examen, informar si el paciente está usando antivirales </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Herpes simple II.png",
+          /*price: "$25.000",*/
+          sample:
+            "🩸 Sangre venosa (detección de anticuerpos) - 🧫 Secreción de la lesión genital (hisopado de ampolla o llaga)",
+          time: "24 - 48 horas hábiles",
+          details: "Enfermedad de transmisión sexual tratable.",
+        },
+        {
+          id: 79,
+          name: "Neisseria gonorrhoeae",
+          desc: "Examen que detecta la causante de la gonorrea, una infección de transmisión sexual (ITS), La prueba identifica la bacteria mediante cultivo microbiológico, microscopía o pruebas moleculares como PCR, que detectan el material genético del microorganismo. <br><br> ¡Para que sirve? <br> permite <b> Detectar infección por gonorrea, diagnosticar infecciones genitales, evaluar secreción genital anormal, investigar dolor al orinar o secreción genital anormal, detectar infecciones de transmisión sexual </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Evitar relaciones sexuales 24 horas antes del examen, no usar antibióticos antes de la prueba, en hombre evitar orinar al menos 1 - 2 horas antes si se realiza hisopado uretral </b>",
+          category: "Salud sexual",
+          img: "./assets/images/Examenes/Salud Sexual/Gonorrea.png",
+          /*price: "$25.000",*/
+          sample:
+            "Mujeres Hisopado vaginal o cervical - Hombres Hisopado uretral o muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Enfermedad de transmisión sexual tratable.",
+        },
+
+        /* Genetica */
+
+        {
+          id: 48,
+          name: "Prueba de Paternidad (ADN)",
+          desc: "Examen que permite con alta precisión si existe relación biológica entre un padre y un hijo, La prueba compara el perfil genético del presunto padre con el del hijo, analizando múltiples marcadores de ADN heredados, La genético del presunto padre con el del hijo, analizando múltiples marcadores de ADN heredados. <br><br> ¡Para que sirve? <br> permite <b> Confirmar o descartar paternidad biológica, resolver dudas de filiación, apoyar procesos legales o judiciales, realizar estudios familiares o filiación </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 minutos </b> <br><br> <b> Generalmente no requiere preparación especial <b> <br><br> Se recomienda <b> No comer, beber o fumar 30 minutos antes de la toma de la muestra, no usar enjuagues bucales antes del examen </b>",
+          category: "Genética",
+          img: "./assets/images/Examenes/Genetica/paternidad.png",
+          /*price: "$25.000",*/
+          sample: "🧬 Células de la mucosa bucal (hisopado bucal)",
+          time: "3 - 5 dias hábiles",
+          details: "Comparación de marcadores genéticos con alta precisión.",
+        },
+        {
+          id: 49,
+          name: "Cariotipo de bandeo [G, R y C]",
+          desc: "Examen que analiza los cromosomas humanos para detectar alteraciones en su número o estructura, permite observar los 46 cromosomas presentes en las células humanas, utilizando técnicas de bandeo cromosómico (G, R y C) que ayudan a identificar cambios o anomalías genéticas. <br><br> ¡Para que sirve? <br> permite <b> Detectar alteraciones cromosómicas, diagnosticar síndromes genéticos, evaluar problemas de fertilidad, investigar abortos recurrentes, analizar malformaciones congénitas, evaluar alteraciones congénitas </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere preparación especial </b>",
+          category: "Genética",
+          img: "./assets/images/Examenes/Genetica/careotipo de bandeo.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "10 - 21 dias hábiles",
+          details:
+            "Útil en infertilidad, abortos recurrentes y síndromes genéticos.",
+        },
+        {
+          id: 50,
+          name: "PCR en Tiempo Real (qPCR)",
+          desc: "Examen que detecta y mide material genético (ADN o ARN) de virus, bacterias u otros microorganismos, ademas permite detectar la presencia del agente infeccioso con alta precisión y rapidez. <br><br> ¡Para que sirve? <br> permite <b> Detectar virus, bacterias o parásitos, diagnosticar infecciones virales  bacterianas, identificar infecciones de transmisión sexual, confirmar enfermedades infecciosas, monitorear carga viral o bacteriana </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere preparación especial, aunque depende del tipo de muestra <b> <br><br> Se recomienda <b> Evitar medicamentos o antibióticos antes del examen, seguir las indicaciones antibióticos antes del examen </b>",
+          category: "Genética",
+          img: "./assets/images/Examenes/Genetica/PCR en tiempo real.png",
+          /*price: "$25.000",*/
+          sample:
+            "Hisopado nasal o nasofaríngeo - Hisopado nasal o nasofaríngeo - Hisopado vaginal o uretral - Sangre venosa - Secreciones o fluidos corporales",
+          time: "24 - 48 horas hábiles",
+          details: "Permite diagnóstico de infecciones y estudios genéticos.",
+        },
+
+        /* Salud Ocupacional */
+
+        {
+          id: 51,
+          name: "Examen de Ingreso",
+          desc: "Evaluacion medica que se realiza antes de iniciar un trabajo, estudio o actividad institucional, El objetivo es evaluar el estado general de salud del paciente y verificar que se encuentre en condiciones fisicas adecuadas para desempeñar sus funciones. <br><br> ¡Para que sirve? <br> permite <b> Evaluar el estado general de salud, detectar enfermedades preexistentes, identificar riesgos para el trabajo, verificar condiciones físicas del trabajador, cumplir con requisitos laborales o institucionales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 10 - 15 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas si incluye pruebas de sangre, evitar consumo de alcohol el día anterior, llevar documento de identidad y orden médica o laboral </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Examen de ingreso.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa - 🚻 Muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Incluye evaluación clínica acorde al cargo.",
+        },
+        {
+          id: 52,
+          name: "Examen Preingreso",
+          desc: "Evaluación médica ocupacional acompañada de pruebas de laboratorio, realizada antes de que una persona ingrese a un puesto de trabajo, El objetivo es verificar el estado de salud del trabajor y determinar si se encuentra apto para desempeñar las funciones del cargo, de acuerdo con los riesgos laborales. <br><br> ¡Para que sirve? <br> permite <b> Evaluar el estado general de salud del aspirante, detectar enfermedades o condiciones preexistentes, identificar riesgos asociados al trabajo, cumplir con requisitos de seguridad y salud en el trabajo, determinar si el trabajador está apto para el cargo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 10 a 15 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas si se realiza pruebas de sangre, evitar alcohol el día anterior, llebar documento de identidad y orden laboral </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Examen preingreso.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa - 🚻 Muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Determina condiciones para el desempeño laboral.",
+        },
+        {
+          id: 53,
+          name: "Examen Periódico",
+          desc: "Evaluación médica ocupacional acompañada de pruebas de laboratorio, que se realiza de manera periódica a los trabajadores durante su permanencia en una empresa, Su objetivo es monitorear el estado de salud del trabajador y detectar posibles alteraciones relacionadas con los riesgos laborales. <br><br> ¡Para que sirve? <br> permite <b> Evaluar el estado de salud del trabajador en el tiempo, detectar enfermedades laborales o alteraciones tempranas, identificar efectos de exposición a riesgos del trabajo, verificar si el trabajador continúa apto para su cargo, cumplir con normativas de seguridad y salud en el trabajo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 10 a 15 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas si se realiza pruebas de sangre, evitar consumo de alcohol el dia anterior, llevar documento de identidad </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Examen periodico.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa - 🚻 Muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Monitorea efectos del trabajo en la salud.",
+        },
+        {
+          id: 54,
+          name: "Examen de Retiro",
+          desc: "Evaluación médica realizada cuando un trabajador finaliza su contrato o relación laboral con una empresa, El objetivo es evaluar el estado de salud del trabajador al momento de su retiro y comparar su condición con los exámenes realizados durante su ingreso y permanencia en el trabajo. <br><br> ¡Para que sirve? <br> permite <b> Evaluar el estado de salud del trabajador al finalizar su empleo, detectar posibles enfermedades relacionadas con el trabajo, registrar la condición de salud al momento del retiro, cumplir con normativas de seguridad y salud en el trabajo, determinar si existen alteraciones relacionadas con la actividad laboral </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 10 a 15 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas si incluye pruebas de sangre, evitar consumo de alcohol el día anterior, llevar documento de identidad </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Examen de retiro.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa - 🚻 Muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Establece condiciones de salud al egreso.",
+        },
+        {
+          id: 55,
+          name: "Examen Post Incapacidad y Seguimientos",
+          desc: "Evaluación médica ocupacional y clinica que se realiza cuando un trabajor regresa a sus labores después de una incapacidad médica, El objetivo es verificar el estado de salud del trabajador, confirmar que está en condiciones de retomar sus actividades laborales y determinar si requiere restricciones, seguimiento o adaptación del puesto de trabajo. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la está en condiciones de retomar sus actividades laborales y determinar si requiere restricciones, seguimiento o adaptación del puesto de trabajo, determinar si el trabajador está apto para reintegrarse a sus funciones, identificar limitaciones o restricciones laborales, realizar siguimiento a enfermedades o lesiones, cumplir con protocolos de seguridad y salud en el trabajo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 15 a 20 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Llevar documento de identidad, presentar historia clínica o incapacidad médica, si se solicita pruebas de sangre, realizar ayuno de 8 a 12 horas </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Examen post incapacidad.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa - 🚻 Muestra de orina",
+          time: "24 - 48 horas hábiles",
+          details: "Define recomendaciones y restricciones.",
+        },
+        {
+          id: 56,
+          name: "Toma de Muestras",
+          desc: "Procedimiento que recolecta muestras biológicas del paciente para realizar diferentes exámenes diagnósticos, estas muestras permiten analizar el estado de salud del paciente y detectar enfermedades, infecciones o alteraciones metabólicas. <br><br> ¡Para que sirve? <br> permite <b> Obtener muestras biológicas para análisis clínicos, apoyar el diagnóstico médico, realizar exámenes de control o seguimiento, detectar enfermedades o infecciones, evaluar el estado general de salud </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 3 a 10 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas para algunos exámenes de sangre, evitar medicamentos antes del examen si el médico lo indica, seguir las instrucciones específicas del laboratorio </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Toma de muestras.png",
+          /*price: "$25.000",*/
+          sample:
+            "🩸 Sangre venosa - 🚻 Orina -🧫 Secreciones vaginales o uretrales - 🧬 Hisopados nasales o faríngeos - 🧪 Muestras para estudios microbiológicos o moleculares",
+          time: "24 - 72 horas hábiles",
+          details: "Proceso técnico para análisis de laboratorio.",
+        },
+        {
+          id: 57,
+          name: "Manipulación de Alimentos",
+          desc: "Examen que e realiza a personas que trabajam con preparación, transporte o venta de alimentos, El objetivo es evaluar el estado de salud del manipulador de alimentos y descartar enfermedades que puedan contaminar los alimentos o afectar la salud pública. <br><br> ¡Para que sirve? <br> permite <b> Verificar que la persona puede manipular alimentos de forma segura, detectar infeccione intestinales o parásitos, cumplir con normativas sanitarias y de salud pública, obtener o renovar el certificado de manipulación de alimentos </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 5 a 10 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Utilizar recipiente estéril para la muestra de heces, evitar medicamentos antiparasitarios antes del examen si el médico lo indica, seguir las instrucciones del laboratorio </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Manipulacion de alimentos.png",
+          /*price: "$25.000",*/
+          sample:
+            "🚻 Muestra de heces -🩸 Sangre venosa (en algunos casos) - 🧫 Hisopado de garganta o nasal",
+          time: "24 - 48 horas hábiles",
+          details: "Cumple normativa sanitaria vigente.",
+        },
+        {
+          id: 73,
+          name: "Curso Trabajo en Altura para Mayores de 40 Años",
+          desc: "Evaluación médica ocupacional acompañada de capacitación en seguridad laboral, dirigida a trabajadores mayores de 40 años que realizan actividades en alturas, El objetivo es verificar que la persona se encuentra en condiciones físicas y de salud adecuadas para realizar trabajos en alturas de forma segura. <br><br> ¡Para que sirve? <br> permite <b> Evaluar si el trabajador está apto para realizar trabajo en alturas, preveir accidnentes laborales, identificar condiciones médicas que puedan representar riesgo, cumplir con normativas de seguridad y salud en el trabajo </b> <br><br> <b> ⏱ El curso puede durar aproximadamente 2 a 4 horas </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Llevar documento de identidad, usar ropa cómoda, realizar ayuno de 8 a 12 horas si se solicitan exámenes de sangre </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Curso trabajo mayores 40 años.png",
+          /*price: "$25.000",*/
+          sample: "🩸Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details: "Cumple normativa sanitaria vigente.",
+        },
+        {
+          id: 74,
+          name: "Curso Trabajo en Altura para Menores de 40 Años",
+          desc: "Evaluación médica ocupacional acompañada de capacitación en seguridad laboral, dirigida a trabajadores menores de 40 años que realizan actividades en alturas, Su objetivo es verificar que el trabajador se encuentra en condiciones físicas adecuadas para desempeñar labores en alturas y que conoce las normas de seguridad para prevenir accidentes.. <br><br> ¡Para que sirve? <br> permite <b> Evaluar si el trabajador está apto para trabajo en alturas, prevenir accidentes laborales, identificar condiciones médicas que puedan representar riesgo, cumplir con normativas de seguridad y salud en el trabajo </b> <br><br> ¿Como se realiza? <b> ⏱ El curso puede durar aproximadamente 2 a 4 horas </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Llevar documento de identidad, usar ropa cómoda, realizar ayuno de 8 a 12 horas si se solicitan exámenes de sangre </b>",
+          category: "Salud Ocupacional",
+          img: "./assets/images/Examenes/Salud Ocupacional/Curso trabajo menores 40 años.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details: "Cumple normativa sanitaria vigente.",
+        },
+
+        /* Prueba de fertilidad */
+
+        {
+          id: 58,
+          name: "Espermograma Básico Hombre",
+          desc: "Examen que analiza una muestra de semen del hombre para evaluar la calidad y cantidad de los espermatozoides, permite determinar si los espematozoides tienen caracteristicas adecuadas para la reproducción y detectar posibles alteraciones en la fertilidad masculina. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la fertilidad masculina, analizar la concentración de espermatozoides, determinar la movilidad espermática, evaluar la forma (morfología) de los espermatozoides, detectar alteraciones en la producción de semen </b> <br><br> ¿Como se realiza? <b> ⏱ La toma dura aproximadamente 10 a 15 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Abstinencia sexual de 2 a 5 dias antes del examen, evitar alcohol o medicamentos antes del examen si el médico lo indica, entregar la muestra al laboratorio en menos de 30 a 60 minutos </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Espermograma hombre.png",
+          /*price: "$25.000",*/
+          sample: "🧫 Muestra de semen",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Permite evaluar la función ovárica y determinar el momento adecuado del ciclo menstrual.",
+        },
+        {
+          id: 59,
+          name: "Testosterona Hombre",
+          desc: "Evaluación médica ocupacional acompañada de capacitación en seguridad laboral, dirigida a trabajadores menores de 40 años que realizan actividades en alturas, Su objetivo es verificar que el trabajador se encuentra en condiciones físicas adecuadas para desempeñar labores en alturas y que conoce las normas de seguridad para prevenir accidentes.. <br><br> ¡Para que sirve? <br> permite detectar <b> Anemia, Infecciones, Inflamaciones, Trastornos de la sangre, Problemas de coagulacion, Seguimiento de tratamientos médicos </b> <br><br> ¿Como se realiza? <b> ⏱ El curso puede durar aproximadamente 2 a 4 horas </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Llevar documento de identidad, usar ropa cómoda, realizar ayuno de 8 a 12 horas si se solicitan exámenes de sangre </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Testosterona hombre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Niveles elevados pueden afectar la ovulación y dificultar la fertilidad.",
+        },
+        {
+          id: 60,
+          name: "Cariotipo [G, Q] Hombre",
+          desc: "Examen que analiza los cromosomas presentes en las células del hombre para detectar alteraciones en el número o estructura cromosómica, El cariotipo permite observar los 46 cromosomas humanos, incluyendo los cromosomas sexuales (XY), utilizando técnicas de bandeo G y Q, que ayudan a identificar anomalías genéticas. <br><br> ¡Para que sirve? <br> permite <b> Detectar alteraciones cromosómicas, evaluar problemas de fertilidad masculina, diagnosticar trastornos genéticos, investigar abortos recurrentes en la pareja, identificar síndromes cromosómicos </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Llevar documento de identidad, informar si se tienen antecedetendes genéticos familiares </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Careotipo G, Q hombre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "7 - 15 dias hábiles",
+          details:
+            "Es clave para determinar la capacidad del útero para mantener un embarazo.",
+        },
+        {
+          id: 61,
+          name: "FSH Hombre",
+          desc: "Examen que mide en el hombre esta hormona, Es producida por la hipófisis y cumple un papel importante en la producción de espermatozoides en los testículos. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad masculina, analizar la función de los testículos, investigar baja producción de espermatozoides, detectar alteraciones hormonales, estudiar trastornos del sistema reproductor masculino </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Realizar el examen en horas de la mañana, informar si está tomando medicamentos hormonales </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/FSH hombre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Ayuda a predecir la respuesta a tratamientos de fertilidad.",
+        },
+        {
+          id: 62,
+          name: "LH Hombre",
+          desc: "Examen que mide en la sangre la hormona producida por la hipófisis y estimula los testículos para producir testosterona, hormona fundamental para la función sexual y la producción de espermatozoides. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad masculina, analizar la producción de testosterona, detectar alteraciones hormonales, evaluar la función de los testículos, investigar trastornos del sistema reproductor masculino </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Realizar el examen en horas de la mañana, informar si se están tomando medicamentos hormonales </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/LH hombre.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Permite detectar posibles causas de infertilidad masculina.",
+        },
+        {
+          id: 63,
+          name: "LH Mujer",
+          desc: "Examen que mide en la mujer, esta hormona es producida por la hipófisis y tiene un papel fundamental en el ciclo menstrual, ya que estimula la ovulación y regula la función de los ovarios. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad femenina, analizar alteraciones del ciclo mestrual, detectar problemas en la ovulación, evaluar la función de los ovarios, estudiar trastornos hormonales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Realizar el examen en un día específico del ciclo menstrual, informar si está tomando medicamentos hormonales </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/LH mujer.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details: "Se utiliza para identificar el momento fértil del ciclo.",
+        },
+        {
+          id: 64,
+          name: "FSH Mujer",
+          desc: "Examen que mide en la sangre la hormona producida por la hipófisis y regula el desarrollo de los folículos en los ovarios, donde se forman los óvulos. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad femenina, analizar alteraciones del ciclo mestrual, evaluar la función ovárica, detectar insuficiencia ovárica o menopausia, investigar transtornos hormonales </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Realizar el examen en dias especificos del ciclo mestrual, informar si se están tomando medicamentos hormonales </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/FSH mujer.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Es fundamental para valorar la reserva ovárica y la función reproductiva.",
+        },
+        {
+          id: 80,
+          name: "Hormona Antimulleriana (AMH) Mujer",
+          desc: "Examen que mide en la sangre la hormona producida por los folículos de los ovarios y permite evaluar la cantidad de óvulos disponibles, conocida como reserva ovárica. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la reserva ovárica, analizar problemas de fertilidad femenina, estimar la capacidad reproductiva, apoyar tratamientos de reproducción asistida, evaluar sindomre de ovario poliquístico (SOP) </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Hormona antimulleriana mujer.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Es fundamental para valorar la reserva ovárica y la función reproductiva.",
+        },
+        {
+          id: 81,
+          name: "Progesterona Mujer",
+          desc: "Examen que mide la sangre la hormona progesterona, Esta hormona es producida principalmente por los ovarios después de la ovulación y es fundamental para regular el ciclo menstrual y preparar el útero para un posible embarazo. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad femenina, confirmar si ha ocurrido ovulación, analizar alteraciones del ciclo mestrual, evaluar el funcionamiento de los ovarios, apoyar el seguimiento del embarazo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Progesterona mujer.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Es fundamental para valorar la reserva ovárica y la función reproductiva.",
+        },
+        {
+          id: 82,
+          name: "Prolactina Mujer",
+          desc: "Examen que mide en la sangre la hormona prolactina, Esta hormona es producida por la hipófisis y está relacionada con la producción de leche materna, además de influir en el ciclo menstrual y la fertilidad femenina. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad femenina, investigar alteraciones del ciclo mestrual, detectar niveles elevados de prolactina (hiperprolactinemia), estudiar secreción de leche fuera del embarazo o lactancia, evaluar posibles alteraciones en la hipófisis </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno <b> <br><br> Se recomienda <b> Realizar el examen en horas de la mañana, evitar estrés o actividad física intensa antes del examen, informar si está tomando medicamentos hormonales </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Prolactina mujer.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Es fundamental para valorar la reserva ovárica y la función reproductiva.",
+        },
+        {
+          id: 83,
+          name: "Estradiol Mujer",
+          desc: "Examen que mide en la sangre la hormona estradiol (E2), El estradiol es el principal estrógeno femenino, producido principalmente por los ovarios, y cumple un papel fundamental en el ciclo menstrual, la ovulación y la fertilidad. <br><br> ¡Para que sirve? <br> permite <b> Evaluar problemas de fertilidad femenina, analizar alteraciones del ciclo mestrual, evaluar la función de los ovarios, detectar menopausia o insuficiencia ovárica, apoyar tratamientos de reproducción asistida </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b>",
+          category: "Salud Ocupacional",
+          category: "Prueba de Fertilidad",
+          img: "./assets/images/Examenes/Prueba de Fertilidad/Estradiol mujer.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "24 - 48 horas hábiles",
+          details:
+            "Es fundamental para valorar la reserva ovárica y la función reproductiva.",
+        },
+
+        /* Paquete Rutinario */
+
+        {
+          id: 65,
+          name: "Glicemia",
+          desc: "Examen que mide la cantidad de glucosa (azúcar) en la sangre, La glucosa es la principal fuente de energia del cuerpo, y sus niveles permiten evaluar cómo el organismo procesa el azúcar. <br><br> ¡Para que sirve? <br> permite <b> Detectar diabetes, evaluar prediabetes, controlar pacientes con diabetes, identificar niveles altos o bajos de azúcar en sangre, monitorear el metabolismo de la glucosa </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horass antes del examen, evitar consumo de alimentos o bebidas azucaradas antes de la prueba, informar si está tomando medicamentos para la diabetes </b>",
+          category: "Salud Ocupacional",
+          category: "Paquete Rutinario",
+          img: "./assets/images/Examenes/Paquete Rutinario/Glicemia.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Se utiliza para el diagnóstico y control de diabetes o prediabetes.",
+        },
+        {
+          id: 66,
+          name: "Colesterol",
+          desc: "Examen que mide la cantidad de colesterol en la sangre, El colesterol es una sustancia grasa necesaria para el funcionamiento del organismo, pero niveles elevados pueden aumentar el riesgo de enfermedades cardiovasculares. <br><br> ¡Para que sirve? <br> permite <b> Evaluar el riesgo de enfermedades cardiacas, detectar niveles elevados de colesterol, controlar pacientes con hipercolesterolemia, monitorear tratamientos para reducir el colesterol, evaluar el estado de salud cardiovascular </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas antes del examen, evitar alimentos grasos el dia anterior, informar si se están tomando medicamentos para el colesterol </b>",
+          category: "Salud Ocupacional",
+          category: "Paquete Rutinario",
+          img: "./assets/images/Examenes/Paquete Rutinario/Colesterol.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Permite identificar riesgo de enfermedades del corazón y arterias.",
+        },
+        {
+          id: 67,
+          name: "Triglicéridos",
+          desc: "Examen que mide cantidad de triglicéridos en la sangre, son un tipo de grasa presente en el organismo que se utiliza como fuente de energia, Sin embargo, los niveles pueden aumentar el riesgo de enfermedades cardiovasculares. <br><br> ¡Para que sirve? <br> permite <b> Evaluar el riesgo de enfermedades cardíacas, detectar niveles altos de triglicéridos, controlar pacientes con trastornos del metabolismo de grasas, monitorear tratamientos para reducir lipidos en sangre, evaluar el perfil lipídico </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 a 12 horas antes del examen, evitar consumo de ancohol el dia anterior, evitar alimentos grasos antes del examen </b>",
+          category: "Salud Ocupacional",
+          category: "Paquete Rutinario",
+          img: "./assets/images/Examenes/Paquete Rutinario/Trigliceridos.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Valores altos se asocian con riesgo cardiovascular y síndrome metabólico.",
+        },
+        {
+          id: 68,
+          name: "Hemograma (Cuadro Hemático)",
+          desc: "Examen que analiza los componentes principales de la sangre, incluyendo glóbulos rojos, glóbulos blancos y plaquetas, Este examen permite evaluar el estado general de salud y detectar diferentes enfermedades o alteraciones hematológicas. <br><br> ¡Para que sirve? <br> permite <b> Detectar anemia, identificar infecciones, evaluar transtornos de la sangre, monitorear enfermedades crónicas, evaluar el estado general del organismo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente no requiere ayuno </b>",
+          category: "Salud Ocupacional",
+          category: "Paquete Rutinario",
+          img: "./assets/images/Examenes/Paquete Rutinario/Hemograma.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Permite detectar anemia, infecciones y alteraciones hematológicas.",
+        },
+
+        /* Perfil Hepatico */
+
+        {
+          id: 69,
+          name: "Transaminasas [ALT, AST]",
+          desc: "Examen que las enzimas en la sangre y se encuentran principalmente en el higado, y cuando existe daño o inflamación hepática, sus niveles pueden aumentar en la sangre. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la función del hígado, detectar enfermedades hepáticas, identificar inflamación o daño hepático, monitorear hepatitis o enfermedades del higado, controlar el efecto de medicamentos que pueden afectar el higado </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 horas antes del examen, evitar consumo de alcohol antes de la prueba, informar si está tomando medicamentos </b>",
+          category: "Salud Ocupacional",
+          category: "Perfil Hepatico",
+          img: "./assets/images/Examenes/Perfil Hepatico/Transaminasas.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Útil para diagnosticar hepatitis, hígado graso, daño por alcohol o medicamentos y enfermedades hepáticas.",
+        },
+        {
+          id: 70,
+          name: "Bilirrubina",
+          desc: "Examen que mide la cantidad de bilirrubina en la sangre, La bilirrubina es una sustencia producida durante la descomposición de los glóbulos rojos, la cual es procesada por el hígado y eliminada a través de la bilis. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la función del hígado, detectar enfermedades hepáticas, diagnosticar ictericia (color amarrillo en piel y ojos), identificar problemas en el metabolismo de los glóbulos rojos, evaluar transtornos de la vesicula biliar o vias biliares </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 horas antes del examen, evitar consumo de alcohol antes de la prueba, informar si está tomando medicamentos </b>",
+          category: "Salud Ocupacional",
+          category: "Perfil Hepatico",
+          img: "./assets/images/Examenes/Perfil Hepatico/Bilirrubina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Permite detectar ictericia, obstrucción biliar, cálculos en vesícula o alteraciones hepáticas.",
+        },
+        {
+          id: 71,
+          name: "Fosfatasa Alcalina",
+          desc: "Examen que detecta una enzima presente principalmente en el higafdo, los huesos, la vesicula biliar y el intestino, Niveles alterados pueden indicar problemas hepáticos, biliares o trastornos óseos. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la función del hígado, detectar enfermedades de la vesicula o vias biliares, identificar trastornos óseos, monitorear enfermedades hepáticas, evaluar problemas en el metabolismo óseo </b> <br><br> ¿Como se realiza? <b> ⏱ La toma puede durar aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 horas antes del examen, evitar consumo de alcohol antes de la prueba, informar si está tomando medicamentos </b>",
+          category: "Salud Ocupacional",
+          category: "Perfil Hepatico",
+          img: "./assets/images/Examenes/Perfil Hepatico/Fosfata alcalina.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Se eleva en obstrucción biliar, enfermedades del hígado y alteraciones óseas.",
+        },
+        {
+          id: 72,
+          name: "GGT",
+          desc: "Examen en sangre que mide una enzima presente principalmente en el higado y las vias biliares, Los niveles de GGT pueden aumentar cuando existe daño hepático, problemas en la vesícula biliar o consumo excesivo de alcohol. <br><br> ¡Para que sirve? <br> permite <b> Evaluar la función del hígado, detectar enfermedades hepáticas, identificar problemas en las vias biliares, evaluar consumo crónico de alcohol, apoyar el diagnóstico de trastornos hepáticos </b> <br><br> ¿Como se realiza? <b> ⏱ El toma dura aproximadamente 3 a 5 minutos </b> <br><br> <b> Generalmente requiere ayuno <b> <br><br> Se recomienda <b> Ayuno de 8 horas antes del examen, evitar consumo de alcohol 24 horas antes del examen, informar si está tomando medicamentos </b>",
+          category: "Salud Ocupacional",
+          category: "Perfil Hepatico",
+          img: "./assets/images/Examenes/Perfil Hepatico/GGT.png",
+          /*price: "$25.000",*/
+          sample: "🩸 Sangre venosa",
+          time: "12 - 24 horas hábiles",
+          details:
+            "Indicador de afectación por alcohol, medicamentos, hígado graso u obstrucción biliar.",
+        },
+      ];
+
+      /* ===================== VARIABLES ===================== */
+      let currentCategory = "all";
+      let selected = new Set();
+
+      const examListEl = document.getElementById("exam-list");
+      const searchInput = document.getElementById("search-input");
+
+      /* ===================== FILTRADO ===================== */
+      function filterExams() {
+        const q = searchInput.value.toLowerCase();
+
+        return exams.filter((e) => {
+          const matchCategory =
+            currentCategory === "all" ||
+            e.category.toLowerCase() === currentCategory.toLowerCase();
+
+          const matchSearch =
+            e.name.toLowerCase().includes(q) ||
+            e.desc.toLowerCase().includes(q);
+
+          return matchCategory && matchSearch;
+        });
+      }
+
+      /* ===================== RENDER ===================== */
+      function renderCards() {
+        examListEl.innerHTML = "";
+
+        filterExams().forEach((exam) => {
+          const card = document.createElement("div");
+          card.className = "exam-card";
+
+          card.innerHTML = `
+      <img src="${exam.img}" alt="${exam.name}">
+      <h4>${exam.name}</h4>
+      <p>${exam.desc}</p>
+
+      <label>
+        <input type="checkbox" class="compare" data-id="${exam.id}">
+        Comparar
+      </label>
+
+      <button class="btn-detail" data-id="${exam.id}">
+        Ver detalle
+      </button>
+    `;
+
+          examListEl.appendChild(card);
+        });
+
+        document.querySelectorAll(".compare").forEach((cb) => {
+          cb.checked = selected.has(+cb.dataset.id);
+        });
+      }
+
+      /* ===================== DETALLE ===================== */
+      function openDetail(id) {
+        const e = exams.find((x) => x.id === id);
+        if (!e) return;
+
+        const extraInfo = categoryInfo[e.category] || "";
+
+        detailBody.innerHTML = `
+    <h3>${e.name}</h3>
+    <p>${e.desc}</p>
+
+    <hr>
+
+    <p><strong>Muestra:</strong> ${e.sample}</p>
+    <p><strong>Tiempo de entrega:</strong> ${e.time}</p>
+
+    <p><strong>Descripción clínica:</strong><br>${e.details}</p>
+
+    <hr>
+
+    <h4>Información Importante</h4>
+    ${extraInfo}
+  `;
+
+        document.getElementById("detail-modal").style.display = "flex";
+      }
+      /* ===================== COMPARACIÓN ===================== */
+      function openCompare() {
+        const sel = [...selected].map((id) => exams.find((e) => e.id === id));
+
+        if (sel.length !== 2) {
+          alert("Selecciona exactamente 2 exámenes");
+          return;
+        }
+
+        modalBody.innerHTML = sel
+          .map(
+            (e) => `
+    <div>
+      <h4>${e.name}</h4>
+      <p>${e.desc}</p>
+      <p>${e.price}</p>
+    </div>
+  `,
+          )
+          .join("");
+
+        document.getElementById("compare-modal").style.display = "flex";
+      }
+
+      /* ===================== EVENTOS ===================== */
+
+      // Categorías
+      document.querySelectorAll("#category-list li").forEach((li) => {
+        li.addEventListener("click", () => {
+          document
+            .querySelectorAll("#category-list li")
+            .forEach((x) => x.classList.remove("active"));
+
+          li.classList.add("active");
+          currentCategory = li.dataset.category;
+
+          renderCards();
+        });
+      });
+
+      // Buscar
+      searchInput.addEventListener("input", renderCards);
+
+      // Selección comparar
+      document.body.addEventListener("change", (e) => {
+        if (e.target.classList.contains("compare")) {
+          const id = +e.target.dataset.id;
+
+          e.target.checked ? selected.add(id) : selected.delete(id);
+
+          document.getElementById("bottom-compare").style.display =
+            selected.size ? "flex" : "none";
+        }
+      });
+
+      // Abrir detalle
+      document.body.addEventListener("click", (e) => {
+        if (e.target.classList.contains("btn-detail")) {
+          openDetail(+e.target.dataset.id);
+        }
+      });
+
+      // WhatsApp
+      document
+        .getElementById("detail-whatsapp")
+        .addEventListener("click", () => {
+          window.open(
+            "https://wa.me/573113212221?text=Hola, deseo información del examen",
+            "_blank",
+          );
+        });
+
+      // Cerrar modales
+      document.getElementById("detail-close").onclick = () =>
+        (detailModal.style.display = "none");
+
+      document.getElementById("modal-close").onclick = () =>
+        (compareModal.style.display = "none");
+
+      document.getElementById("close-modal").onclick = () =>
+        (compareModal.style.display = "none");
+
+      /* ===================== INICIO ===================== */
+      renderCards();
+    </script>
+    
+<!-- Script funcionalidades -->
+ <script>
+/* ===============================
+   VARIABLES
+================================ */
+const compareBar = document.getElementById('bottom-compare');
+const compareInfo = document.getElementById('bottom-compare-info');
+const compareBtn = document.getElementById('compare-btn');
+
+const compareModal = document.getElementById('compare-modal');
+const modalBody = document.getElementById('modal-body');
+const modalClose = document.getElementById('modal-close');
+const modalCloseBtn = document.getElementById('close-modal');
+
+const detailModal = document.getElementById('detail-modal');
+const detailBody = document.getElementById('detail-body');
+const detailClose = document.getElementById('detail-close');
+const whatsappBtn = document.getElementById('detail-whatsapp');
+
+let selectedExams = [];
+
+/* ===============================
+   SELECCIONAR PARA COMPARAR
+================================ */
+document.querySelectorAll('.compare-checkbox').forEach(checkbox => {
+  checkbox.addEventListener('change', () => {
+    const card = checkbox.closest('.exam-card');
+    const examName = card.dataset.name;
+
+    if (checkbox.checked) {
+      selectedExams.push(card);
+    } else {
+      selectedExams = selectedExams.filter(e => e !== card);
+    }
+
+    updateCompareBar();
+  });
+});
+
+/* ===============================
+   ACTUALIZAR BARRA INFERIOR
+================================ */
+function updateCompareBar() {
+  if (selectedExams.length > 0) {
+    compareBar.style.display = 'flex';
+    compareInfo.textContent = `${selectedExams.length} examen(es) seleccionados`;
+  } else {
+    compareBar.style.display = 'none';
+  }
+
+  compareBtn.disabled = selectedExams.length < 2;
+}
+
+/* ===============================
+   ABRIR MODAL COMPARACIÓN
+================================ */
+compareBtn.addEventListener('click', () => {
+  modalBody.innerHTML = '';
+
+  selectedExams.forEach(card => {
+    const item = document.createElement('div');
+    item.classList.add('compare-item');
+
+    item.innerHTML = `
+      <h4>${card.dataset.name}</h4>
+      <p>${card.dataset.desc}</p>
+    `;
+
+    modalBody.appendChild(item);
+  });
+
+  compareModal.classList.add('active');
+});
+
+/* ===============================
+   CERRAR MODAL COMPARACIÓN
+================================ */
+modalClose.addEventListener('click', () => {
+  compareModal.classList.remove('active');
+});
+
+modalCloseBtn.addEventListener('click', () => {
+  compareModal.classList.remove('active');
+});
+
+/* ===============================
+   VER DETALLE DEL EXAMEN
+================================ */
+document.querySelectorAll('.btn-detail').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const card = btn.closest('.exam-card');
+
+    detailBody.innerHTML = `
+      <h3>${card.dataset.name}</h3>
+      <p>${card.dataset.desc}</p>
+    `;
+
+    whatsappBtn.onclick = () => {
+      const msg = `Hola, deseo información sobre el examen ${card.dataset.name}`;
+      window.open(
+        `https://wa.me/57311 3212221?text=${encodeURIComponent(msg)}`,
+        '_blank'
+      );
+    };
+
+    detailModal.classList.add('active');
+  });
+});
+
+/* ===============================
+   CERRAR MODAL DETALLE
+================================ */
+detailClose.addEventListener('click', () => {
+  detailModal.classList.remove('active');
+});
+
+window.addEventListener('click', e => {
+  if (e.target === compareModal) compareModal.classList.remove('active');
+  if (e.target === detailModal) detailModal.classList.remove('active');
+});
+</script>
+
+<!-- Incio funcionalidades extras -->
+<script>
+const examContainer = document.getElementById('exam-container');
+
+exams.forEach(exam => {
+  const card = document.createElement('div');
+  card.className = 'exam-card';
+
+  /* 🔑 DATA ATRIBUTES */
+  card.dataset.id = exam.id;
+  card.dataset.name = exam.name;
+  card.dataset.type = exam.category;
+  card.dataset.desc = exam.desc;
+  card.dataset.img = exam.img;
+  card.dataset.price = exam.price;
+  card.dataset.sample = exam.sample;
+  card.dataset.time = exam.time;
+  card.dataset.details = exam.details;
+
+  card.innerHTML = `
+    <img src="${exam.img}" alt="${exam.name}">
+
+    <div class="card-body">
+      <h3>${exam.name}</h3>
+      <p>${exam.desc}</p>
+
+      <div class="card-meta">
+        <span><strong>Muestra:</strong> ${exam.sample}</span><br>
+        <span><strong>Entrega:</strong> ${exam.time}</span><br>
+        <span><strong>Precio:</strong> ${exam.price}</span>
+      </div>
+
+      <div class="card-actions">
+
+        <button class="btn-detail">Ver detalle</button>
+      </div>
+    </div>
+  `;
+
+  examContainer.appendChild(card);
+});
+</script>
+
+<!-- Codigo referencia -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        if (typeof exams === "undefined") return;
+
+        const catalogo = document.getElementById("catalogo-examenes");
+        const buscarInput = document.getElementById("buscar-examen");
+        const btnLista = document.getElementById("vista-list");
+        const btnGrid = document.getElementById("vista-grid");
+        const categorias = document.querySelectorAll("#category-list li");
+
+        const modal = document.getElementById("modal-examen");
+        const modalBody = document.getElementById("modal-body");
+        const cerrarModal = document.querySelector(".cerrar-modal");
+
+        let categoriaActiva = "";
+        let filtroTexto = "";
+        let seleccionados = [];
+
+        const normalizar = (txt) =>
+          (txt || "")
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .trim();
+
+        /* =========================
+     INFO CLÍNICA BASE
+  ========================== */
+
+        const examClinicalInfo = {
+          Glucosa: {
+            prep: "Ayuno obligatorio de 8–12 horas.",
+            sintomas: "Sed excesiva, visión borrosa, orina frecuente.",
+            utilidad: "Diagnóstico inicial de diabetes.",
+          },
+          "Glicosilada (HbA1c)": {
+            prep: "No requiere ayuno.",
+            sintomas: "Seguimiento de pacientes diabéticos.",
+            utilidad: "Promedio de glucosa últimos 3 meses.",
+          },
+        };
+
+        /* =========================
+     RENDER
+  ========================== */
+
+        function renderExams() {
+          catalogo.innerHTML = "";
+
+          const filtrados = exams.filter((ex) => {
+            // SOLO mostrar si pertenece exactamente al paquete activo
+            if (!categoriaActiva) return false;
+
+            const perteneceAlPaquete =
+              normalizar(ex.category) === normalizar(categoriaActiva);
+
+            const coincideTexto =
+              normalizar(ex.name).includes(normalizar(filtroTexto)) ||
+              normalizar(ex.desc).includes(normalizar(filtroTexto));
+
+            return perteneceAlPaquete && coincideTexto;
+          });
+
+          /*if (!filtrados.length) {
+            catalogo.innerHTML = "<p>No hay exámenes disponibles.</p>";
+            return;
+          }*/
+
+          filtrados.forEach((exam) => {
+            const seleccionado = seleccionados.includes(String(exam.id))
+              ? "seleccionado"
+              : "";
+
+            const card = document.createElement("div");
+            card.className = "examen-card";
+
+            card.innerHTML = `
+        <img src="${exam.img}" alt="${exam.name}" class="examen-img">
+
+        <div class="examen-body">
+          <h4>${exam.name}</h4>
+          <p>${exam.desc}</p>
+
+          <small><b>Muestra:</b> ${exam.sample || "-"}</small><br>
+          <small><b>Entrega:</b> ${exam.time || "-"}</small>
+
+          <div class="acciones">
+            <button class="ver-detalle" data-id="${exam.id}">
+              Ver detalles
+            </button>
+
+          </div>
+        </div>
+      `;
+
+            catalogo.appendChild(card);
+          });
+        }
+
+        /* =========================
+     EVENTOS CATALOGO
+  ========================== */
+
+        catalogo.addEventListener("click", (e) => {
+          const boton = e.target.closest("button");
+          if (!boton) return;
+
+          const id = boton.dataset.id;
+          if (!id) return;
+
+          const examen = exams.find((ex) => ex.id == id);
+          if (!examen) return;
+
+          /* ===== VER DETALLE ===== */
+          if (boton.classList.contains("ver-detalle")) {
+            modalBody.innerHTML = `
+      <h2>${examen.name}</h2>
+      <p>${examen.desc}</p>
+      <p><strong>Muestra:</strong> ${examen.sample || "-"}</p>
+      <p><strong>Entrega:</strong> ${examen.time || "-"}</p>
+      <p><strong>Precio:</strong> ${examen.price || "Consultar"}</p>
+    `;
+
+            modal.style.display = "flex";
+          }
+
+          /* ===== COMPARAR ===== */
+          if (boton.classList.contains("comparar-examen")) {
+            const idStr = String(id);
+
+            if (seleccionados.includes(idStr)) {
+              seleccionados = seleccionados.filter((x) => x !== idStr);
+            } else {
+              if (seleccionados.length >= 2) {
+                alert("Solo puedes comparar máximo 2 exámenes.");
+                return;
+              }
+
+              seleccionados.push(idStr);
+            }
+
+            renderExams();
+          }
+        });
+
+        /* =========================
+     MODAL
+  ========================== */
+
+        if (cerrarModal) {
+          cerrarModal.addEventListener("click", () => {
+            modal.style.display = "none";
+          });
+        }
+
+        window.addEventListener("click", (e) => {
+          if (e.target === modal) {
+            modal.style.display = "none";
+          }
+        });
+
+        /* =========================
+     FILTROS
+  ========================== */
+
+        categorias.forEach((li) => {
+          li.addEventListener("click", () => {
+            categorias.forEach((c) => c.classList.remove("active"));
+            li.classList.add("active");
+
+            categoriaActiva = li.dataset.category || "";
+            filtroTexto = "";
+            buscarInput.value = "";
+
+            renderExams();
+          });
+        });
+
+        const filtrados = exams.filter((ex) => {
+          // SOLO mostrar si pertenece exactamente al paquete activo
+          if (!categoriaActiva) return false;
+
+          const perteneceAlPaquete =
+            normalizar(ex.category) === normalizar(categoriaActiva);
+
+          const coincideTexto =
+            normalizar(ex.name).includes(normalizar(filtroTexto)) ||
+            normalizar(ex.desc).includes(normalizar(filtroTexto));
+
+          return perteneceAlPaquete && coincideTexto;
+        });
+
+        buscarInput.addEventListener("input", (e) => {
+          filtroTexto = e.target.value;
+          renderExams();
+        });
+
+        btnLista?.addEventListener("click", () => {
+          catalogo.className = "list-view";
+          btnLista.classList.add("active");
+          btnGrid.classList.remove("active");
+        });
+
+        btnGrid?.addEventListener("click", () => {
+          catalogo.className = "grid-view";
+          btnGrid.classList.add("active");
+          btnLista.classList.remove("active");
+        });
+
+        renderExams();
+      });
+    </script>
+    <!-- Codigo referencia -->
+
+<!-- Script BÚSQUEDA ACTIVA REAL -->
+<script>
+  const inputBuscar = document.getElementById("buscar-examen");
+  const catalogo = document.getElementById("catalogo-examenes");
+
+  // Guardamos la BD original
+  const examsDB = [...exams];
+
+  // Escuchar escritura en tiempo real
+  inputBuscar.addEventListener("input", () => {
+    const texto = inputBuscar.value.toLowerCase().trim();
+
+    // Si está vacío → mostrar todo
+    if (texto === "") {
+      renderExams(examsDB);
+      return;
+    }
+
+    // Filtrado real
+    const resultados = examsDB.filter(exam =>
+      exam.name.toLowerCase().includes(texto) ||
+      exam.desc.toLowerCase().includes(texto) ||
+      exam.sample.toLowerCase().includes(texto)
+    );
+
+    renderExams(resultados);
+  });
+</script>
+
+<script>
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+}
+
+const examsContainer = document.getElementById("exams-container");
+
+function renderExams(category) {
+  examsContainer.innerHTML = "";
+
+  const filtered = exams.filter(
+    exam => normalize(exam.category) === normalize(category)
+  );
+
+  if (!filtered.length) return;
+
+  filtered.forEach(exam => {
+    const examItem = document.createElement("div");
+
+    // ⚠️ usa la MISMA clase que ya tenías en tu diseño
+    examItem.className = "exam-item";
+
+    examItem.innerHTML = `
+      <img src="${exam.img}" alt="${exam.name}">
+      <h4>${exam.name}</h4>
+      <p>${exam.desc}</p>
+      <small>
+        <b>Muestra:</b> ${exam.sample} · 
+        <b>Tiempo:</b> ${exam.time}
+      </small>
+    `;
+
+    examsContainer.appendChild(examItem);
+  });
+}
+
+document
+  .getElementById("category-list")
+  .addEventListener("click", e => {
+    const li = e.target.closest("li");
+    if (!li) return;
+
+    document
+      .querySelectorAll("#category-list li")
+      .forEach(el => el.classList.remove("active"));
+
+    li.classList.add("active");
+
+    renderExams(li.dataset.category);
+  });
+
+  const activeCategory = document.querySelector(
+  "#category-list li.active"
+);
+
+renderExams(activeCategory.dataset.category);
+
+const items = document.querySelectorAll('#category-list li');
+
+items.forEach(item => {
+  item.addEventListener('click', () => {
+    items.forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+  });
+});
+</script>
+
+  </body>
+</html>
